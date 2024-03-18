@@ -1,0 +1,344 @@
+C:\Users\pv000980\Dropbox\Code\C#\4th year project\4th year project\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\pv000980\Dropbox\Code\C#\4th year project\4th year project\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\pv000980\Dropbox\Code\C#\4th year project\4th year project\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\pv000980\Dropbox\Code\C#\4th year project\4th year project\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\pv000980\Dropbox\Code\C#\4th year project\4th year project\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\pv000980\Dropbox\Code\C#\4th year project\4th year project\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\pv000980\Dropbox\Code\C#\4th year project\4th year project - new\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\pv000980\Dropbox\Code\C#\4th year project\4th year project - new\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\pv000980\Dropbox\Code\C#\4th year project\4th year project - new\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\pv000980\Dropbox\Code\C#\4th year project\4th year project - new\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\pv000980\Dropbox\Code\C#\4th year project\4th year project - new\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\pv000980\Dropbox\Code\C#\4th year project\4th year project - new\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+\\ndrive\pv000980\My Documents\4th year project\4th year project\4th year project - new\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+\\ndrive\pv000980\My Documents\4th year project\4th year project\4th year project - new\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+\\ndrive\pv000980\My Documents\4th year project\4th year project\4th year project - new\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+\\ndrive\pv000980\My Documents\4th year project\4th year project\4th year project - new\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+\\ndrive\pv000980\My Documents\4th year project\4th year project\4th year project - new\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+\\ndrive\pv000980\My Documents\4th year project\4th year project\4th year project - new\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\pv000980\Dropbox\Code\C#\4th year project Ver2\4th year project - new\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\pv000980\Dropbox\Code\C#\4th year project Ver2\4th year project - new\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\pv000980\Dropbox\Code\C#\4th year project Ver2\4th year project - new\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\pv000980\Dropbox\Code\C#\4th year project Ver2\4th year project - new\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\pv000980\Dropbox\Code\C#\4th year project Ver2\4th year project - new\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\pv000980\Dropbox\Code\C#\4th year project Ver2\4th year project - new\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\Sam\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\Sam\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\bin\Debug\OxyPlot.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\bin\Debug\OxyPlot.pdb
+C:\Users\Sam\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\bin\Debug\OxyPlot.xml
+C:\Users\Sam\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\bin\Debug\OxyPlot.dll
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\bin\Debug\OxyPlot.pdb
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\bin\Debug\OxyPlot.xml
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3 - Current\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3 - Current\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3 - Current\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3 - Current\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3 - Current\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3 - Current\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.3\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.3\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.3\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.3\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.3\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.3\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1 (1).6\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1 (1).6\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1 (1).6\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1 (1).6\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1 (1).6\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1 (1).6\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.2\WindowsFormsApplication3V6.1\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.2\WindowsFormsApplication3V6.1\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.2\WindowsFormsApplication3V6.1\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.2\WindowsFormsApplication3V6.1\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.2\WindowsFormsApplication3V6.1\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.2\WindowsFormsApplication3V6.1\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.4\WindowsFormsApplication3V6.4\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.4\WindowsFormsApplication3V6.4\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.4\WindowsFormsApplication3V6.4\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.4\WindowsFormsApplication3V6.4\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.4\WindowsFormsApplication3V6.4\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.4\WindowsFormsApplication3V6.4\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.5\WindowsFormsApplication3V6.4\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.5\WindowsFormsApplication3V6.4\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.5\WindowsFormsApplication3V6.4\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.5\WindowsFormsApplication3V6.4\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.5\WindowsFormsApplication3V6.4\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.5\WindowsFormsApplication3V6.4\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+\\icnas1.cc.ic.ac.uk\sw7814\WindowsFormsApplication3V6.5\WindowsFormsApplication3V6.4\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+\\icnas1.cc.ic.ac.uk\sw7814\WindowsFormsApplication3V6.5\WindowsFormsApplication3V6.4\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+\\icnas1.cc.ic.ac.uk\sw7814\WindowsFormsApplication3V6.5\WindowsFormsApplication3V6.4\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+\\icnas1.cc.ic.ac.uk\sw7814\WindowsFormsApplication3V6.5\WindowsFormsApplication3V6.4\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+\\icnas1.cc.ic.ac.uk\sw7814\WindowsFormsApplication3V6.5\WindowsFormsApplication3V6.4\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+\\icnas1.cc.ic.ac.uk\sw7814\WindowsFormsApplication3V6.5\WindowsFormsApplication3V6.4\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.1\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.1\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.1\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.1\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.1\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.1\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.7\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.7\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.7\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.7\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.7\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.7\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.7\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.10\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.10\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.10\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.10\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.10\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.10\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.10\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.11\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.11\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.11\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.11\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.11\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.11\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.11\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.13\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.13\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.13\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.13\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.13\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.13\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.13\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.15\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.15\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.15\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.15\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojAssemblyReference.cache
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.15\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.15\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CopyComplete
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.15\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.15\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojAssemblyReference.cache
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CopyComplete
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojAssemblyReference.cache
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CopyComplete
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.17\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.17\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.17\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.17\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojAssemblyReference.cache
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.17\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.17\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CopyComplete
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.17\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.17\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.17\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.17\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.17\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.17\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojAssemblyReference.cache
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.17\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.17\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CopyComplete
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.17\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.17\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.19\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.19\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.19\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.19\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojAssemblyReference.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.19\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.19\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CopyComplete
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.19\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.19\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.20\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.20\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.20\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.20\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojAssemblyReference.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.20\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.20\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CopyComplete
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.20\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.20\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.22\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.22\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.22\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.22\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojAssemblyReference.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.22\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.22\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CopyComplete
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.22\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.22\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.24\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.24\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.24\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.24\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojAssemblyReference.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.24\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.24\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CopyComplete
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.24\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.24\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\OpenTK.dll
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\OpenTK.pdb
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\OpenTK.xml
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojAssemblyReference.cache
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CopyComplete
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\OpenTK.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\OpenTK.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\OpenTK.xml
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojAssemblyReference.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CopyComplete
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\OpenTK.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\OpenTK.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\bin\Debug\OpenTK.xml
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojAssemblyReference.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CopyComplete
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+D:\WindowsFormsApplication3V6.7.01\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+D:\WindowsFormsApplication3V6.7.01\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+D:\WindowsFormsApplication3V6.7.01\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+D:\WindowsFormsApplication3V6.7.01\packages\NewSerialHandler\bin\Debug\OpenTK.dll
+D:\WindowsFormsApplication3V6.7.01\packages\NewSerialHandler\bin\Debug\OpenTK.pdb
+D:\WindowsFormsApplication3V6.7.01\packages\NewSerialHandler\bin\Debug\OpenTK.xml
+D:\WindowsFormsApplication3V6.7.01\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojAssemblyReference.cache
+D:\WindowsFormsApplication3V6.7.01\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+D:\WindowsFormsApplication3V6.7.01\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CopyComplete
+D:\WindowsFormsApplication3V6.7.01\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+D:\WindowsFormsApplication3V6.7.01\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+E:\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+E:\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+E:\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+E:\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\bin\Debug\OpenTK.dll
+E:\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\bin\Debug\OpenTK.pdb
+E:\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\bin\Debug\OpenTK.xml
+E:\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojAssemblyReference.cache
+E:\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+E:\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CopyComplete
+E:\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+E:\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+E:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+E:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+E:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+E:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\bin\Debug\OpenTK.dll
+E:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\bin\Debug\OpenTK.pdb
+E:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\bin\Debug\OpenTK.xml
+E:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojAssemblyReference.cache
+E:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+E:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CopyComplete
+E:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+E:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+D:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+D:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+D:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+D:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\bin\Debug\OpenTK.dll
+D:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\bin\Debug\OpenTK.pdb
+D:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\bin\Debug\OpenTK.xml
+D:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojAssemblyReference.cache
+D:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+D:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CopyComplete
+D:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+D:\Other\WindowsFormsApplication3V6.7.02\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+E:\Other\WindowsFormsApplication3V6.7.05\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+E:\Other\WindowsFormsApplication3V6.7.05\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+E:\Other\WindowsFormsApplication3V6.7.05\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+E:\Other\WindowsFormsApplication3V6.7.05\packages\NewSerialHandler\bin\Debug\OpenTK.dll
+E:\Other\WindowsFormsApplication3V6.7.05\packages\NewSerialHandler\bin\Debug\OpenTK.pdb
+E:\Other\WindowsFormsApplication3V6.7.05\packages\NewSerialHandler\bin\Debug\OpenTK.xml
+E:\Other\WindowsFormsApplication3V6.7.05\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+E:\Other\WindowsFormsApplication3V6.7.05\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+E:\Other\WindowsFormsApplication3V6.7.05\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+E:\Other\WindowsFormsApplication3V6.7.05\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojAssemblyReference.cache
+E:\Other\WindowsFormsApplication3V6.7.05\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CopyComplete
+D:\OneDrive - Imperial College London\Back Pain\Codes\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+D:\OneDrive - Imperial College London\Back Pain\Codes\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+D:\OneDrive - Imperial College London\Back Pain\Codes\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+D:\OneDrive - Imperial College London\Back Pain\Codes\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\OpenTK.dll
+D:\OneDrive - Imperial College London\Back Pain\Codes\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\OpenTK.pdb
+D:\OneDrive - Imperial College London\Back Pain\Codes\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\OpenTK.xml
+D:\OneDrive - Imperial College London\Back Pain\Codes\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+D:\OneDrive - Imperial College London\Back Pain\Codes\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+D:\OneDrive - Imperial College London\Back Pain\Codes\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\OpenTK.dll
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\OpenTK.pdb
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\OpenTK.xml
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+C:\Users\Weiguang Huo\Desktop\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\Weiguang Huo\Desktop\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\Weiguang Huo\Desktop\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\Weiguang Huo\Desktop\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\OpenTK.dll
+C:\Users\Weiguang Huo\Desktop\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\OpenTK.pdb
+C:\Users\Weiguang Huo\Desktop\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\OpenTK.xml
+C:\Users\Weiguang Huo\Desktop\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\Weiguang Huo\Desktop\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\Weiguang Huo\Desktop\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\OpenTK.dll
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\OpenTK.pdb
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\OpenTK.xml
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojAssemblyReference.cache
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CopyComplete
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll.config
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\NewSerialHandler.dll
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\NewSerialHandler.pdb
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\OpenTK.dll
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\OpenTK.pdb
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\bin\Debug\OpenTK.xml
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csprojAssemblyReference.cache
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CoreCompileInputs.cache
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\obj\Debug\NewSerialHandler.csproj.CopyComplete
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\obj\Debug\NewSerialHandler.dll
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\NewSerialHandler\obj\Debug\NewSerialHandler.pdb

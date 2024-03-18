@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qVOMJMFOWWVUNsZ4L2fmM3IH2ppHlhUjcjUTila7bkwr3gQbJm5VgFo2nydGVZZEtcdPHLNhTxfToRoQxH5o2A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rs4318\\Desktop\\PlayBack App - Copy\\PLAYBACK-Code\\PLAYBACK - 3 Channels\\IMU Raw Data\\WindowsFormsApplication3V6.7.06\\WindowsFormsApplication3V6.7.06\\packages\\CircularProgressBar\\CircularProgressBar.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rs4318\\.nuget\\packages\\msbump\\2.3.2\\msbump.2.3.2.nupkg.sha512",
+    "C:\\Users\\rs4318\\.nuget\\packages\\winformanimation\\1.6.0.4\\winformanimation.1.6.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

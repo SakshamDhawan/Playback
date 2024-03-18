@@ -1,0 +1,20 @@
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\Core40\bin\Debug\LiveCharts.xml
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\Core40\bin\Debug\LiveCharts.dll
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\Core40\bin\Debug\LiveCharts.pdb
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\Core40\obj\Debug\Core40.csprojAssemblyReference.cache
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\Core40\obj\Debug\Core40.csproj.CoreCompileInputs.cache
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\Core40\obj\Debug\LiveCharts.dll
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\Core40\obj\Debug\LiveCharts.pdb
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\Core40\bin\Debug\LiveCharts.xml
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\Core40\bin\Debug\LiveCharts.dll
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\Core40\bin\Debug\LiveCharts.pdb
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\Core40\obj\Debug\Core40.csproj.CoreCompileInputs.cache
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\Core40\obj\Debug\LiveCharts.dll
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\Core40\obj\Debug\LiveCharts.pdb
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\Core40\bin\Debug\LiveCharts.xml
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\Core40\bin\Debug\LiveCharts.dll
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\Core40\bin\Debug\LiveCharts.pdb
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\Core40\obj\Debug\Core40.csprojAssemblyReference.cache
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\Core40\obj\Debug\Core40.csproj.CoreCompileInputs.cache
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\Core40\obj\Debug\LiveCharts.dll
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\Core40\obj\Debug\LiveCharts.pdb

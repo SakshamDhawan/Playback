@@ -1,0 +1,1597 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Windows.Forms;
+using System.Windows;
+using System.IO.Ports;
+using System.IO.Pipes;
+using System.IO;
+using System.Net;
+using System.Net.Sockets;
+using System.Security.Permissions;
+using Microsoft.Win32;
+using InTheHand.Net;
+using InTheHand.Net.Bluetooth;
+using InTheHand.Net.Bluetooth.Widcomm;
+using InTheHand.Net.Sockets;
+using Communications;
+using SerialHandler;
+using FTD2XX_NET;
+using System.Management;
+using System.Diagnostics;
+using CommsLib;
+using System.Text.RegularExpressions;
+using MMGProcessor;
+using OpenTK;
+
+namespace NUClass
+{
+    public class Flag:EventArgs
+    {
+        public readonly int address;
+        public readonly string data;
+        public readonly byte [] TCPdata;
+        public readonly int Class;
+        public readonly string name;
+        public readonly int result;
+        public readonly bool triggered;
+        public readonly string StringData;
+        public readonly byte[] unityData; 
+        public readonly bool unity; 
+
+        public Flag(int _address)
+        {
+            this.Class = 1;
+            this.address = _address;
+        }
+        public Flag(int _address, string _data)
+        {
+            this.Class = 2;
+            this.data = _data;
+            this.address = _address;
+        }
+        public Flag(int _address, byte[] _TCPdata)
+        {
+            this.Class = 3;
+            this.TCPdata = _TCPdata;
+            this.address = _address;
+        }
+        public Flag(string _name, int _result)
+        {
+            this.Class = 4;
+            this.name = _name;
+            this.result = _result;
+        }
+        public Flag(string _StringData, bool diff)
+        {
+            this.Class = 5;
+            this.StringData = _StringData;
+        }
+        public Flag(bool _triggered)
+        {
+            this.Class = 6;
+            this.triggered = _triggered;
+        }
+        public Flag(bool _unity, byte[] _data, int _address)
+        {
+            this.Class = 7;
+            this.address = _address;
+            this.unityData = _data;
+        }
+    }
+    public class NU
+    {
+        int id;
+        int PERIOD;
+        int FREQ;
+        int ADC;
+        int PS;
+        int gscale;
+        int grate;
+        int ascale;
+        int arate;
+        int mscale;
+        int mrate;
+        int freq;
+        bool _docked=true;
+        public bool Kat = false;
+        int[] divisor = new int[] { 1, 2, 5, 10, 20, 50, 100, 200, 500, 1000 };
+        public string name;
+        int ignore = 500;
+        public int address;
+        Form3 Form3;
+        int thres = 20;
+        public Form2 Form2;
+        Form5 Form5;
+        public Form8 form8;
+        GraphForm Form4;
+        public bool saveData = false;
+        Calibration cali;
+        public Quaternion quat = new Quaternion(0, 0, 0, 1);
+        float samplePeriod = 0.001f;
+        float holdSamplePeriod;
+        CommunicationsClass Comms;
+        Handler PortHandler;
+        string COMportName;
+        public bool bluetoothConnection = false;
+        public bool USBConnection = false;
+        int slow = 0;
+        byte[] unitydata = new byte[] {0,0,0,0,0,0,0,0 };
+        string CurrentDirectory;
+
+        public byte openclose = 0;
+        public List<int>[] MMGChannel = { new List<int> { }, new List<int> { }, new List<int> { }, new List<int> { }, new List<int> { }, new List<int> { }, new List<int> { }, new List<int> { } };
+        public List<double>[] HandControlProcessorMemory = { new List<double> { }, new List<double> { }, new List<double> { }, new List<double> { }, new List<double> { }, new List<double> { }, new List<double> { }, new List<double> { } };
+        public int[] Debouncer = { 0, 0, 0, 0, 0, 0, 0, 0 };
+        ManualResetEvent[] doneEvents = new ManualResetEvent[7];
+        WorkerClass[] WorkerArray = new WorkerClass[7];
+
+        protected virtual void DataReady()
+        {
+            if (setflag != null) setflag(new Flag(address));
+        }  
+        protected virtual void DataReady(string data)
+        {
+            if (setflag != null) setflag(new Flag(address, data));
+        }
+        protected virtual void DataReady(byte[] data)
+        {
+            if (setflag != null) setflag(new Flag(address, data));
+        }
+        protected virtual void WriteDataToBox(string _StringData)
+        {
+            if (setflag != null) setflag(new Flag(_StringData, true));
+        }
+        protected virtual void HandTriggered()
+        {
+            if (setflag != null) setflag(new Flag(true));
+        }
+        protected virtual void DataReadyUnity(bool unity, byte[] _data)
+        {
+            if (setflag != null) setflag(new Flag(unity, _data, address));
+        }
+        public delegate void DataReadyEvent(Flag e);
+        public event DataReadyEvent setflag;
+
+        public static NU NUClass;
+        public void initialise(string _name, string _CurrentDirectory) {
+            CurrentDirectory = _CurrentDirectory;
+            name = _name;
+            string imuBTName = "NU_BT_" + name;
+            string imuUSBName = "NU_USB_" + name;
+            string imuMemory = CurrentDirectory + "\\IMU_Memory\\NU_BT_" + name + ".txt";
+            PortHandler = new Handler();
+            Form2 = new Form2();
+            NUClass = this;
+            bool bluetooth = true;
+            try
+            {
+                Comms = new CommunicationsClass();                      //Attempt to create bluetooth object (Fails if computer does not support bluetooth)
+            }
+            catch (Exception)
+            {
+                WriteDataToBox("The computer does not appear to have bluetooth capabilities\n");
+                bluetooth = false;
+            }
+            bluetoothConnection = BluetoothConnect(imuMemory, bluetooth, imuBTName);
+            USBConnection = USB(imuUSBName);
+            if (bluetoothConnection && USBConnection)
+            {
+                Form3 = new Form3(name, this);
+                Form3.Show();
+            }
+            
+        }
+        public void ChannelSelect(int channel)
+        {
+            if (channel == 0)
+            {
+                
+                        USBConnection = false;
+            
+            }
+            else if (channel == 1)
+            {
+                
+                        bluetoothConnection = false;
+                
+            }
+
+        }
+
+        public void Dispose()
+        {
+            Comms.Dispose();
+        }
+        public void setAllReg(int[] Variables)
+        {
+            PERIOD = Variables[0];
+            FREQ = Variables[1];
+            ADC = Variables[2];
+            PS = Variables[3];
+            gscale = Variables[4];
+            grate = Variables[5];
+            ascale = Variables[6];
+            arate = Variables[7];
+            mscale = Variables[8];
+            mrate = Variables[9];
+
+            byte p1 = (byte)(PERIOD >> 8);
+
+            for (byte i = 1; i <= Variables.Count(); i++)
+            {
+                sendClearData(7);
+                sendClearData(67);
+                sendClearData((byte)((i*2)+1));
+                sendClearData((byte)(Variables[i-1 ] >> 8));
+                sendClearData((byte)(Variables[i-1]));
+                sendClearData(11);
+            }
+
+            sendClearData(7);
+            sendClearData(67);
+            sendClearData(221);
+            sendClearData(0);
+            sendClearData(0);
+            sendClearData(11);
+            freq = getFrequency() / (FREQ+1);
+            samplePeriod = 1f / (float)freq;
+
+        }
+        public void initfreq()
+        {
+            freq = getFrequency() / (FREQ + 1);
+            samplePeriod = 1f / (float)freq;
+        }
+        private bool USB(string imuUSBName)
+        {
+            UInt32 ftdiDeviceCount = 0;
+            FTDI.FT_STATUS ftStatus = FTDI.FT_STATUS.FT_OK;
+
+            // Create new instance of the FTDI device class
+            FTDI myFtdiDevice = new FTDI();
+
+            // Determine the number of FTDI devices connected to the machine
+            ftStatus = myFtdiDevice.GetNumberOfDevices(ref ftdiDeviceCount);
+            // Check status
+            if (ftStatus == FTDI.FT_STATUS.FT_OK)
+            {
+                WriteDataToBox("Number of FTDI devices: " + ftdiDeviceCount.ToString());
+                WriteDataToBox("\n");
+
+                // Allocate storage for device info list
+                FTDI.FT_DEVICE_INFO_NODE[] ftdiDeviceList = new FTDI.FT_DEVICE_INFO_NODE[ftdiDeviceCount];
+
+                // Populate our device list
+                ftStatus = myFtdiDevice.GetDeviceList(ftdiDeviceList);
+                bool found = false;
+                string deviceID = "";
+                if (ftStatus == FTDI.FT_STATUS.FT_OK)
+                {
+                    for (UInt32 i = 0; i < ftdiDeviceCount; i++)
+                    {
+
+                        if (ftdiDeviceList[i].Description.ToString() == imuUSBName)
+                        {
+                            deviceID = ftdiDeviceList[i].SerialNumber.ToString();
+                            found = true;
+                        }
+                    }
+                }
+
+                ManagementObjectCollection ManObjReturn;
+                ManagementObjectSearcher ManObjSearch;
+                ManObjSearch = new ManagementObjectSearcher("Select * from Win32_PnPEntity");
+                ManObjReturn = ManObjSearch.Get();
+
+                foreach (ManagementObject ManObj in ManObjReturn)
+                {
+                    if (ManObj["DeviceID"].ToString().Contains("FTDI"))
+                    {
+                        if (found && ManObj["DeviceID"].ToString().Contains(deviceID)) {
+                            COMportName = ManObj["Name"].ToString();
+                            WriteDataToBox("\nNU found on ");
+                            WriteDataToBox(COMportName);
+                            WriteDataToBox("\n");
+                            PortHandler.COMPort = COMportName.Substring((COMportName.IndexOf("(")) + 1, (COMportName.IndexOf(")") - COMportName.IndexOf("(")) - 1); ;
+
+                            return true;
+                        }
+
+                    }
+                }
+            }
+            else
+            {
+                WriteDataToBox("Failed to get number of devices (error " + ftStatus.ToString() + ")");
+                return false;
+            }
+            return false;
+        }
+        private bool BluetoothConnect(string imuMemory, bool bluetooth, string imuBTName)
+        {
+            BluetoothDeviceInfo[] devices;
+            WriteDataToBox("Connecting to IMU\n");
+            String[] deviceaddress = new String[] { "" };
+            if (File.Exists(imuMemory))
+            {
+                deviceaddress = File.ReadAllLines(imuMemory);
+            }
+            if (deviceaddress[0].Length > 0 && bluetooth == true)
+            {
+
+                WriteDataToBox("Attempting Quick Connect\n");
+                byte[] address = { 0, 0, 0, 0, 0, 0 };
+
+                for (int i = 0; i < 6; i++)
+                {
+                    address[i] = (byte)(Convert.ToInt32((deviceaddress[0][10 - (2 * i)].ToString() + deviceaddress[0][11 - (2 * i)].ToString()), 16));
+                }
+                BluetoothAddress btaddress = new BluetoothAddress(address);
+
+
+                if (Comms.connectthroughbluetoothaddress(btaddress))
+                {
+                    WriteDataToBox("Connection Successful\n");
+                    Comms.DataIn += new CommunicationsClass.EventHandler(Comms_OnDataIn);
+                    return true;
+                }
+                else
+                {
+
+
+                    if (bluetooth == true)
+                    {
+                        WriteDataToBox("Searching for Paired Bluetooth Device...\n");
+                        BluetoothClient client = new BluetoothClient();
+                        devices = client.DiscoverDevices();
+                        foreach (BluetoothDeviceInfo d in devices)
+                        {
+                            if (d.DeviceName == imuBTName)
+                            {
+                                File.WriteAllText(imuMemory, d.DeviceAddress.ToString());
+                                WriteDataToBox("Device Found\nAttempting Connection...\n");
+                                if (Comms.connectthroughbluetooth(d))
+                                {
+                                    WriteDataToBox("Connection Successful\n");
+                                    Comms.DataIn += new CommunicationsClass.EventHandler(Comms_OnDataIn);
+                                    return true;
+                                }
+                                else
+                                {
+                                    WriteDataToBox("Connection Failed\n");
+                                    return false;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            else
+            {
+
+
+
+
+                if (bluetooth == true)
+                {
+                    WriteDataToBox("Searching for Paired Bluetooth Device...\n");
+                    BluetoothClient client = new BluetoothClient();
+                    devices = client.DiscoverDevices();
+                    foreach (BluetoothDeviceInfo d in devices)
+                    {
+                        if (d.DeviceName == imuBTName)
+                        {
+                            File.AppendAllText(imuMemory, d.DeviceAddress.ToString());
+                            WriteDataToBox("Device Found\nAttempting Connection...\n");
+                            if (Comms.connectthroughbluetooth(d))
+                            {
+                                WriteDataToBox("Connection Successful\n");
+                                Comms.DataIn += new CommunicationsClass.EventHandler(Comms_OnDataIn);
+                                return true;
+                            }
+                            else
+                            {
+                                WriteDataToBox("Connection Failed\n");
+                                return false;
+                            }
+                        }
+                    }
+                }
+            }
+            return false;
+        }
+        void PortHandler_OnMessageReceived(SerialHandler.Message_EventArgs e)
+        {
+            OnDataIn(e.RawMessage);
+            try { e.RawMessage.RemoveRange(0, e.RawMessage.Count); }
+            catch (Exception) { }
+        }
+
+
+        void Comms_OnDataIn(Communications.Message_EventArgs e)
+        {
+            OnDataIn(e.RawMessage);
+            try { e.RawMessage.RemoveRange(0, e.RawMessage.Count); }
+            catch (Exception)
+            {
+            }
+        }
+        public void sendData(string data)
+        {
+            if (bluetoothConnection)
+            {
+                Comms.senddata(data);
+            }
+            if (USBConnection)
+            {
+                if (!PortHandler.open) { openUSB(); }
+                PortHandler.send_char(data);
+            }
+        }
+        public void sendClearData(byte data)
+        {
+            if (bluetoothConnection)
+            {
+                Comms.senddata(data);
+            }
+            if (USBConnection)
+            {
+                if (!PortHandler.open) { openUSB(); }
+                PortHandler.send_clear_data(data);
+            }
+        }
+
+        public void StopNU()
+        {
+            try { Form3.Close(); } catch (Exception) { };
+            try { Form2.Close(); } catch (Exception) { };
+            try { Form5.Close(); } catch (Exception) { };
+            try { Form4.Close(); } catch (Exception) { };
+            cali.caliCountDown = 100;
+            try
+            {
+                sendData("M0dg");
+                Comms.getStream();
+            }
+            catch (Exception)
+            {
+                WriteDataToBox("Unable to stop IMU");
+            }
+        }
+        public bool softStopNU()
+        {
+            bool success = true;
+            try
+            {
+                sendData("M0dg");
+
+                Comms.getStream();
+            }
+            catch (Exception)
+            {
+                WriteDataToBox("Unable to stop IMU");
+                success = false;
+
+            }
+            return success;
+        }
+
+        public void initReg()
+        {
+            sendData("RegR");
+        }
+        public void editReg()
+        {
+            sendData("RegR");
+            form8 = new Form8();
+            form8.Show();
+        }
+
+
+        private bool openUSB()
+        {
+            try { PortHandler.Close(); }
+            catch (Exception) { }
+            bool success = PortHandler.Open(921600);//1250000
+            if (success)
+            {
+                WriteDataToBox("\nNU Communications Open\n");
+                PortHandler.OnMessageReceived += new Handler.MessageReceivedEvent(PortHandler_OnMessageReceived);
+            }
+            else
+            {
+                WriteDataToBox("\nUnable To Open NU Communications\n");
+                PortHandler.open = false;
+            }
+            return success;
+        }
+
+        public void M1dg()
+        {
+            OpenForm2();
+
+            sendData("M1dg");
+        }
+
+        public void OpenForm2()
+        {
+
+
+            Form2 = new Form2();
+
+            System.Windows.Forms.Application.DoEvents();
+            // Show the settings form
+            Form2.BackColor = System.Drawing.Color.Black;
+            
+            Form2.Show();
+            Form2.Init(false);
+            
+        }
+        public void CloseForm2()
+        {
+            Form2.Dispose();
+            Form2.Close();
+        }
+        /// <summary>
+        /// Converts Radians to Degrees
+        /// </summary>
+        /// <param name="angle"></param>
+        /// <returns></returns>
+        private double RadianToDegree(double angle)
+        {
+            return angle * (180.0 / Math.PI);
+        }
+        /// <summary>
+        /// Implementation of the Magdewick Algorithm, using IMU data to update orientation Quaternion.
+        /// Variables determined in processData()
+        /// </summary>
+        /// <param name="gx">Gyro X value</param>
+        /// <param name="gy">Gyro Y value</param>
+        /// <param name="gz">Gyro Z value</param>
+        /// <param name="ax">Accel X value</param>
+        /// <param name="ay">Accel Y value</param>
+        /// <param name="az">Accel Z value</param>
+        /// <param name="mx">Mag X value</param>
+        /// <param name="my">Mag Y value</param>
+        /// <param name="mz">Mag Z value</param>
+        public void Update(float gx, float gy, float gz, float ax, float ay, float az, float mx, float my, float mz)
+        {
+            float q1 = quat.W, q2 = quat.X, q3 = quat.Y, q4 = quat.Z;   // short name local variable for readability
+            float norm;
+            float hx, hy, _2bx, _2bz, _8bx, _8bz;
+            float s1, s2, s3, s4;
+            float qDot1, qDot2, qDot3, qDot4;
+
+            // Auxiliary variables to avoid repeated arithmetic
+            float _2q1mx;
+            float _2q1my;
+            float _2q1mz;
+            float _2q2mx;
+            float _4bx;
+            float _4bz;
+            float _2q1 = 2f * q1;
+            float _2q2 = 2f * q2;
+            float _2q3 = 2f * q3;
+            float _2q4 = 2f * q4;
+            float _2q1q3 = 2f * q1 * q3;
+            float _2q3q4 = 2f * q3 * q4;
+            float q1q1 = q1 * q1;
+            float q1q2 = q1 * q2;
+            float q1q3 = q1 * q3;
+            float q1q4 = q1 * q4;
+            float q2q2 = q2 * q2;
+            float q2q3 = q2 * q3;
+            float q2q4 = q2 * q4;
+            float q3q3 = q3 * q3;
+            float q3q4 = q3 * q4;
+            float q4q4 = q4 * q4;
+
+            // Normalise accelerometer measurement
+            norm = (float)Math.Sqrt(ax * ax + ay * ay + az * az);
+            if (norm == 0f) return; // handle NaN
+            norm = 1 / norm;        // use reciprocal for division
+            ax *= norm;
+            ay *= norm;
+            az *= norm;
+
+            // Normalise magnetometer measurement
+            norm = (float)Math.Sqrt(mx * mx + my * my + mz * mz);
+            if (norm == 0f) return; // handle NaN
+            norm = 1 / norm;        // use reciprocal for division
+            mx *= norm;
+            my *= norm;
+            mz *= norm;
+
+            // Reference direction of Earth's magnetic field
+            _2q1mx = 2f * q1 * mx;
+            _2q1my = 2f * q1 * my;
+            _2q1mz = 2f * q1 * mz;
+            _2q2mx = 2f * q2 * mx;
+            hx = mx * q1q1 - _2q1my * q4 + _2q1mz * q3 + mx * q2q2 + _2q2 * my * q3 + _2q2 * mz * q4 - mx * q3q3 - mx * q4q4;
+            hy = _2q1mx * q4 + my * q1q1 - _2q1mz * q2 + _2q2mx * q3 - my * q2q2 + my * q3q3 + _2q3 * mz * q4 - my * q4q4;
+            _2bx = (float)Math.Sqrt(hx * hx + hy * hy);
+            _2bz = -_2q1mx * q3 + _2q1my * q2 + mz * q1q1 + _2q2mx * q4 - mz * q2q2 + _2q3 * my * q4 - mz * q3q3 + mz * q4q4;
+            _4bx = 2f * _2bx;
+            _4bz = 2f * _2bz;
+            _8bx = 2f * _4bx;
+            _8bz = 2f * _4bz;
+            // Gradient decent algorithm corrective step
+            s1 = -_2q3 * (2f * q2q4 - _2q1q3 - ax) + _2q2 * (2f * q1q2 + _2q3q4 - ay) - _2bz * q3 * (_2bx * (0.5f - q3q3 - q4q4) + _2bz * (q2q4 - q1q3) - mx) + (-_2bx * q4 + _2bz * q2) * (_2bx * (q2q3 - q1q4) + _2bz * (q1q2 + q3q4) - my) + _2bx * q3 * (_2bx * (q1q3 + q2q4) + _2bz * (0.5f - q2q2 - q3q3) - mz);
+            s2 = _2q4 * (2f * q2q4 - _2q1q3 - ax) + _2q1 * (2f * q1q2 + _2q3q4 - ay) - 4f * q2 * (1 - 2f * q2q2 - 2f * q3q3 - az) + _2bz * q4 * (_2bx * (0.5f - q3q3 - q4q4) + _2bz * (q2q4 - q1q3) - mx) + (_2bx * q3 + _2bz * q1) * (_2bx * (q2q3 - q1q4) + _2bz * (q1q2 + q3q4) - my) + (_2bx * q4 - _4bz * q2) * (_2bx * (q1q3 + q2q4) + _2bz * (0.5f - q2q2 - q3q3) - mz);
+            s3 = -_2q1 * (2f * q2q4 - _2q1q3 - ax) + _2q4 * (2f * q1q2 + _2q3q4 - ay) - 4f * q3 * (1 - 2f * q2q2 - 2f * q3q3 - az) + (-_4bx * q3 - _2bz * q1) * (_2bx * (0.5f - q3q3 - q4q4) + _2bz * (q2q4 - q1q3) - mx) + (_2bx * q2 + _2bz * q4) * (_2bx * (q2q3 - q1q4) + _2bz * (q1q2 + q3q4) - my) + (_2bx * q1 - _4bz * q3) * (_2bx * (q1q3 + q2q4) + _2bz * (0.5f - q2q2 - q3q3) - mz);
+            s4 = _2q2 * (2f * q2q4 - _2q1q3 - ax) + _2q3 * (2f * q1q2 + _2q3q4 - ay) + (-_4bx * q4 + _2bz * q2) * (_2bx * (0.5f - q3q3 - q4q4) + _2bz * (q2q4 - q1q3) - mx) + (-_2bx * q1 + _2bz * q3) * (_2bx * (q2q3 - q1q4) + _2bz * (q1q2 + q3q4) - my) + _2bx * q2 * (_2bx * (q1q3 + q2q4) + _2bz * (0.5f - q2q2 - q3q3) - mz);
+            norm = 1f / (float)Math.Sqrt(s1 * s1 + s2 * s2 + s3 * s3 + s4 * s4);    // normalise step magnitude
+            s1 *= norm;
+            s2 *= norm;
+            s3 *= norm;
+            s4 *= norm;
+
+            // Compute rate of change of quaternion
+            qDot1 = 0.5f * (-q2 * gx - q3 * gy - q4 * gz) - 1f * s1;
+            qDot2 = 0.5f * (q1 * gx + q3 * gz - q4 * gy) - 1f * s2;
+            qDot3 = 0.5f * (q1 * gy - q2 * gz + q4 * gx) - 1f * s3;
+            qDot4 = 0.5f * (q1 * gz + q2 * gy - q3 * gx) - 1f * s4;
+
+            // Integrate to yield quaternion
+            q1 += qDot1 * samplePeriod;
+            q2 += qDot2 * samplePeriod;
+            q3 += qDot3 * samplePeriod;
+            q4 += qDot4 * samplePeriod;
+            norm = 1f / (float)Math.Sqrt(q1 * q1 + q2 * q2 + q3 * q3 + q4 * q4);    // normalise quaternion
+            quat.W = q1 * norm;
+            quat.X = q2 * norm;
+            quat.Y = q3 * norm;
+            quat.Z = q4 * norm;
+            //DataReady();
+        }
+        public void M3dg()
+        {
+            Form4 = new GraphForm();
+            Form4.Graph(8,false);
+            Form4.Show();
+            sendData("M3dg");
+        }
+        public void M4dgold()
+        {
+            _docked = false;
+            Form2 = new Form2();
+
+            System.Windows.Forms.Application.DoEvents();
+
+            Form2.Show();
+            Form2.Init(_docked);
+
+
+
+            sendData("M4dg");
+        }
+        public void M4dg()
+        {
+            // OpenForm2();
+            _docked = true;
+            Form5 = new Form5();
+            Form5.OpenForms();
+            Form5.Show();
+            
+
+            sendData("M4dg");
+        }
+        public void M7dg()
+        {
+            // OpenForm2();
+            Form5 = new Form5();
+            Form5.OpenForms();
+            Form5.Show();
+
+            sendData("M7dg");
+        }
+
+
+        public void Save()
+        {
+            sendData("M4dg");
+        }
+        public void MATLAB()
+        {
+            sendData("M2dg");
+        }
+
+        void MMGdatain(List<int> message, int GyroValue, bool docked)
+        {
+            if (saveData == true)
+            {
+                //       float val = (message[0] * 256) + message[1];
+                //       try { file.WriteLine((val.ToString())); }
+                //       catch { }
+            }
+            else
+            {
+                int[] testval = new int[8];
+                if (slow < -10) { slow = 10; }
+                float val1 = (message[0] * 256) + message[1];
+                testval[0] = (int)val1;
+                val1 = (val1 * 3.3f) / 1024;
+                float val2 = (message[2] * 256) + message[3];
+                testval[1] = (int)val2;
+                val2 = (val2 * 3.3f) / 1024;
+                float val3 = (message[4] * 256) + message[5];
+                testval[2] = (int)val3;
+                val3 = (val3 * 3.3f) / 1024;
+                float val4 = (message[6] * 256) + message[7];
+                testval[3] = (int)val4;
+                val4 = (val4 * 3.3f) / 1024;
+                float val5 = (message[8] * 256) + message[9];
+                testval[4] = (int)val5;
+                val5 = (val5 * 3.3f) / 1024;
+                float val6 = (message[10] * 256) + message[11];
+                testval[5] = (int)val6;
+                val6 = (val6 * 3.3f) / 1024;
+                float val7 = (message[12] * 256) + message[13];
+                testval[6] = (int)val7;
+                val7 = (val7 * 3.3f) / 1024;
+                float val8 = (message[14] * 256) + message[15];
+                testval[7] = (int)val8;
+                val8 = (val8 * 3.3f) / 1024;
+                slow--;
+                DataReady(new byte[] { 12,
+
+                    (byte)message[4],
+                    (byte)message[5]
+
+                });
+                
+
+                for (int i = 0; i < 7; i++)
+                {
+                    doneEvents[i] = new ManualResetEvent(false);
+                    WorkerClass f = new WorkerClass(doneEvents[i], testval[i], MMGChannel[i], HandControlProcessorMemory[i], Debouncer[i],threshold);
+                    WorkerArray[i] = f;
+                    ThreadPool.QueueUserWorkItem(f.ThreadPoolCallback, i);
+
+                }
+
+
+                WaitHandle.WaitAll(doneEvents);
+                for (int i = 0; i < 7; i++)
+                {
+                    Debouncer[i] = WorkerArray[i].MMGProcessor.current;
+                    HandControlProcessorMemory[i] = WorkerArray[i].MMGProcessor.memory;
+                    MMGChannel[i] = WorkerArray[i].MMGProcessor.MMGdata;
+
+                    if (WorkerArray[i].MMGProcessor.saveReturn)
+                    {
+                        if (GyroValue <= 1500)
+                        {
+                           // Form1._Form1.WriteToBoxXThread("Triggered by channel" + i.ToString());
+                            if (i == 3)
+                            {
+                                SendKeys.SendWait(" ");
+                                if (Kat == false)
+                                {
+                                    HandTriggered();
+                                }
+                                else {
+                                    if (address == 1)
+                                    {
+                                        HandTriggered();
+                                    }
+                                }
+                            }
+                            else
+                            {
+                            }
+                        }
+                    }
+                }
+                if (WorkerArray[3].saveValue != 0)
+                {
+                   // Form1._Form1.WriteToBoxXThread("Current = " + WorkerArray[3].MMGProcessor.current + "\n");
+                    openclose = (byte)WorkerArray[3].MMGProcessor.current;
+                    try
+                    {
+                        Form5.Form4b.addValue((float)WorkerArray[3].saveValue / 25, ((float)threshold) / 25, 0);
+
+                        Form5.Form4.addValue(val1, val2, val3, val4, val5, val6, val7, val8);
+                    }
+                    catch (Exception)
+                    {
+
+                    }
+                }
+                if (slow == 0)
+                {
+
+
+                    try
+                    {
+                        Form5.Form4.addValue(val1, val2, val3, val4, val5, val6, val7, val8);
+                        slow = 10;
+
+                    }
+
+                    catch (Exception)
+                    {
+                        if (!Kat)
+                        {
+                            sendData("M0dg");
+                        }
+                    }
+                }
+            }
+            if (Kat)
+            {
+                DataReadyUnity(true, unitydata);
+            }
+        }
+
+        void UpdateSD()
+        {
+            sendClearData(7);
+            sendClearData(67);
+            sendClearData(12);
+            sendClearData((byte)(cali.MagX >> 8));
+            sendClearData((byte)(cali.MagX));
+            sendClearData(11);
+            System.Threading.Thread.Sleep(100);
+            sendClearData(7);
+            sendClearData(67);
+            sendClearData(13);
+            sendClearData((byte)(cali.MagY >> 8));
+            sendClearData((byte)(cali.MagY));
+            sendClearData(11);
+            System.Threading.Thread.Sleep(100);
+            sendClearData(7);
+            sendClearData(67);
+            sendClearData(14);
+            sendClearData((byte)(cali.MagZ >> 8));
+            sendClearData((byte)(cali.MagZ));
+            sendClearData(11);
+            System.Threading.Thread.Sleep(100);
+            sendClearData(7);
+            sendClearData(67);
+            sendClearData(11);
+            sendClearData(0);
+            sendClearData(0);
+            sendClearData(11);
+        }
+        int getsignedvalue(int value)
+        {
+            if (value >= (32768))
+            {
+                value = value - (65536);
+            }
+            return value;
+        }
+        void ShowConfig(List<int> message)
+        {
+            
+            id = (message[0]<<8)|message[1];
+            PERIOD = (message[2] << 8) | message[3];
+            FREQ = (message[4] << 8) | message[5];
+            ADC = (message[6] << 8) | message[7];
+            PS = (message[8] << 8) | message[9];
+            gscale = message[10];
+            grate = message[11];
+            ascale = message[12];
+            arate = message[13];
+            mscale = message[14];
+            mrate = message[15];
+            int firmware = 5;
+            int MagX = 0;
+            int MagY = 0;
+            int MagZ = 0;
+            int AccX = 0;
+            int AccY = 0;
+            int AccZ = 0;
+            int GyroX = 0;
+            int GyroY = 0;
+            int GyroZ = 0;
+            if (message.Count > 25)
+            {
+                MagX = getsignedvalue((message[16] << 8) | message[17]);
+                MagY = getsignedvalue((message[18] << 8) | message[19]);
+                MagZ = getsignedvalue((message[20] << 8) | message[21]);
+                AccX = getsignedvalue((message[22] << 8) | message[23]);
+                AccY = getsignedvalue((message[24] << 8) | message[25]);
+                AccZ = getsignedvalue((message[26] << 8) | message[27]);
+                GyroX = getsignedvalue((message[28] << 8) | message[29]);
+                GyroY = getsignedvalue((message[30] << 8) | message[31]);
+                GyroZ = getsignedvalue((message[32] << 8) | message[33]);
+                firmware = (message[34] << 8) | message[35];
+            }
+            cali = new Calibration(name, CurrentDirectory,MagX,MagY,MagZ,AccX,AccY,AccZ, MagX,MagY,MagZ,false);
+            initfreq();
+            if (form8 != null && firmware==5)
+            {
+                form8.setdata(PERIOD, FREQ, ADC, PS, gscale, grate, ascale, arate, mscale, mrate, firmware);
+            }
+            if (form8 != null && firmware >= 6)
+            {
+                form8.setdata(PERIOD, FREQ, ADC, PS, gscale, grate, ascale, arate, mscale, mrate, MagX, MagY, MagZ, AccX, AccY, AccZ, GyroX, GyroY, GyroZ, firmware);
+            }
+
+        }
+        int getFrequency()
+        {
+            if(PERIOD == 0)
+            {
+                //Data retrieval failed
+                sendData("RegR");
+                return 1000;
+            }
+            int frequency;
+            int[] prescaler = { 1, 8, 64, 256 };
+            int clock = 30000000;
+            frequency = (clock) / (PERIOD * prescaler[PS] * 2);
+
+            return frequency;
+        }
+        int getFrequency(int ps, int period)
+        {
+            int frequency;
+            int[] prescaler = { 1, 8, 64, 256 };
+            int clock = 30000000;
+            frequency = (clock) / (period * prescaler[ps] * 2);
+
+            return frequency;
+        }
+        int[] setFrequency(int frequency)
+        {
+            int[] variables = new int[2] {65536,0 };
+            int ps = 0;
+
+            int[] prescaler = { 1, 8, 64, 256 };
+            int clock = 30000000;
+            while ((variables[0] >= 65536) && (variables[1] <= 4))
+            {
+                variables[0] = (clock ) / (frequency * prescaler[variables[1]] * 2);
+                variables[1]++;
+            }
+
+            if (ps == 5)
+            {
+                return null;
+            }
+
+            return variables;
+
+        }
+        void OnDataIn(List<int> message)
+        {
+            if (message.Count > 2)
+            {
+                int data = message[0];
+                int mode = message[1];
+                message.RemoveRange(0, 2);
+                if (data - 1 != message.Count())
+                {
+                    return;
+                }
+                if (mode == 0)
+                {
+                    foreach (byte i in message)
+                    {
+                        WriteDataToBox((Convert.ToChar(i)).ToString());
+                    }
+                }
+                if (mode == 1)
+                {
+                    WriteDataToBox(string.Join(",", message.ToArray()));
+                }
+
+                if (mode == 2 || mode == 3)
+                {
+                    processData(message, mode, false);
+                    return;
+                }
+                if (mode == 4)
+                {
+                    return;
+                }
+                if (mode == 5)
+                {
+                    MMGdatainShort(message, 0);
+                    return;
+                }
+                if (mode == 6)
+                {
+                    if (saveData == true)
+                    {
+                        StringBuilder messageString = new StringBuilder();
+                        messageString.Append(address.ToString()).Append(',');
+                        foreach (int Data in message)
+                        {
+                            messageString.Append(Data).Append(',');
+                        }
+                        try
+                        {
+                            DataReady(messageString.ToString());
+                        }
+
+                        catch { }
+                    }
+
+                    else
+                    {
+                        if (message.Count <= 16)
+                        {
+                            while (message.Count != 16)
+                            {
+                                message.Add(0);
+                            }
+                            MMGdatain(message, 0, true);
+                        }
+                        else
+                        {
+                            while (message.Count != 34)
+                            {
+                                message.Add(0);
+                            }
+                            if (_docked)
+                            {
+                                MMGdatain(message.GetRange(18, 16), processData(message.GetRange(0, 18), 2, true), true);
+                            }
+                            else
+                            {
+                                processData(message.GetRange(0, 18), 2, false);
+                            }
+                        }
+
+                    }
+
+
+                    return;
+                }
+
+                if (mode == 9)
+                {
+                    ShowConfig(message);
+                }
+                if (mode == 8)
+                {
+
+                    if (saveData == true)
+                    {
+                        StringBuilder messageString = new StringBuilder();
+                        messageString.Append(address.ToString()).Append(',');
+                        foreach (int Data in message)
+                        {
+                            messageString.Append(Data).Append(',');
+                        }
+                        try
+                        {
+                            DataReady(messageString.ToString());
+                        }
+
+                        catch { }
+                    }
+
+                    else
+                    {
+                        if (message.Count <= 8)
+                        {
+                            while (message.Count != 16)
+                            {
+                                message.Add(0);
+                            }
+                            MMGdatain(message, 0, true);
+                        }
+                        else
+                        {
+                            while (message.Count != 24)
+                            {
+                                message.Add(0);
+                            }
+                            float W = (float)((message[0] * 256) + message[1]);
+                            if (W > 16384) { W -= 65536; }
+                            float X = (float)((message[2] * 256) + message[3]);
+                            if (X > 16384) { X -= 65536; }
+                            float Y = (float)((message[4] * 256) + message[5]);
+                            if (Y > 16384) { Y -= 65536; }
+                            float Z = (float)((message[6] * 256) + message[7]);
+                            if (Z > 16384) { Z -= 65536; }
+
+                            
+                            quat.W = W;
+                            quat.X = X;
+                            quat.Y = Y;
+                            quat.Z = Z;
+                            Form5.Form2.setValue(quat);
+                            MMGdatain(message.GetRange(8, 16), 0, true);
+                            //processData(message.GetRange(0, 18), 2, false);
+                        }
+
+                    }
+
+
+                    return;
+
+
+
+
+
+
+                    
+                }
+
+
+                else
+                if (mode != 0 && mode != 1 && mode != 2 && mode != 3 && mode != 4 && mode != 5 && mode != 6 && mode != 7 && mode != 8 && mode!= 9)
+                {
+                    {
+                        WriteDataToBox("\n");
+
+                        Comms.getStream();
+                    }
+                }
+                //Invoke(new Action(() => richTextBox1.AppendText("\n"))); Invoke(new Action(() => richTextBox1.ScrollToCaret())); Invoke(new Action(() => System.Windows.Forms.Application.DoEvents()));
+
+            }
+        }
+        void MMGdatainShort(List<int> message, int GyroValue)
+        {
+            
+            
+                int[] testval = new int[8];
+                if (slow < -10) { slow = 10; }
+                float val1 = (message[0] * 256) + message[1];
+                testval[0] = (int)val1;
+                val1 = (val1 * 3.3f) / 1024;
+
+                slow--;
+
+
+            if (slow == 0)
+            {
+
+
+                try
+                {
+                    Form4.addValue(val1);
+                    slow = 10;
+                }
+
+                catch (Exception)
+                {
+                    sendData("M0dg");
+                }
+            }
+
+        }
+        public int int32toint16(int value)
+        {
+            int newvalue = Convert.ToInt16((value) & 32767);
+            if (((value) & 32768) != 0)
+            {
+                newvalue = Convert.ToInt16(-32768 + newvalue);
+            }
+            return newvalue;
+        }
+
+        public int processData(List<int> message, int mode, bool docked)
+        {
+            float AX=0;
+            float AY=0;
+            float AZ=0;
+            // accel_data is array of the data from the accelerometer in the following format: G_X, G_Y, G_Z, M_X, M_Y, M_Z, A_X, A_Y, A_Z
+            int[] accel_data = new int[]{
+            message[0] + ((message[1]) << 8),
+            message[2] + ((message[3]) << 8),
+            (message[4] + ((message[5]) << 8)),
+            message[6] + ((message[7]) << 8),
+            message[8] + ((message[9]) << 8),
+            (message[10] + ((message[11]) << 8)),
+            message[12] + ((message[13]) << 8),
+            message[14] + ((message[15]) << 8),
+            (message[16] + ((message[17]) << 8))
+        };
+            long GyroValue = ((Math.Abs(accel_data[0]) + Math.Abs(accel_data[1]) + Math.Abs(accel_data[2])) / 3);
+            if (mode == 2)
+            {
+                short counter = 0;
+                short[] accel_data_short = new short[accel_data.Count()];
+                foreach (Int32 value in accel_data)
+                {
+                    accel_data_short[counter] = Convert.ToInt16((accel_data[counter]) & 32767);
+                    if (((accel_data[counter]) & 32768) != 0)
+                    {
+                        accel_data_short[counter] = Convert.ToInt16(-32768 + accel_data_short[counter]);
+                    }
+                    counter++;
+                }
+                try
+                {
+                    GyroValue = ((Math.Abs(accel_data_short[0]) + Math.Abs(accel_data_short[1]) + Math.Abs(accel_data_short[2])) / 3);
+                }
+                catch (Exception)
+                {
+
+                }
+                if (cali == null)
+                {
+                    sendData("M0dg");
+                    return 0;
+                }
+                if (!cali.calibrated)
+                {
+                    holdSamplePeriod = samplePeriod;
+                    samplePeriod = 0.02f;
+                    cali.caliCountDown--;
+                    cali.gyroX += accel_data_short[0];
+                    cali.gyroY += accel_data_short[1];
+                    cali.gyroZ += accel_data_short[2];
+                    AX = accel_data_short[6] - cali.AccelX;
+                    AY = accel_data_short[7] - cali.AccelY;
+                    AZ = accel_data_short[8] - cali.AccelZ;
+                    float MX = (accel_data_short[3] - cali.MagX);
+                    float MY = (accel_data_short[4] - cali.MagY);
+                    float MZ = -(accel_data_short[5] - cali.MagZ);
+                    Update(0, 0, 0, AX, AY, AZ, MX, MY, MZ);
+                    samplePeriod = holdSamplePeriod;
+                    if (cali.caliCountDown == 0)
+                    {
+                        cali.calibrated = true;
+                        cali.gyroX /= 100;
+                        cali.gyroY /= 100;
+                        cali.gyroZ /= 100;
+                        
+                    }
+                }
+                else
+                {
+                    float GX =  ((((float)(accel_data_short[0]) - (float)cali.gyroX) * 800f * (float)Math.PI) / (32758f * 180f ));
+                    float GY =  ((((float)(accel_data_short[1]) - (float)cali.gyroY) * 800f * (float)Math.PI) / (32758f * 180f ));
+                    float GZ =  ((((float)(accel_data_short[2]) - (float)cali.gyroZ) * 800f * (float)Math.PI) / (32758f * 180f));
+                    AX = accel_data_short[6] - cali.AccelX;
+                    AY = accel_data_short[7] - cali.AccelY;
+                    AZ = accel_data_short[8] - cali.AccelZ;
+                    float MX = (accel_data_short[3] - cali.MagX);
+                    float MY = (accel_data_short[4] - cali.MagY);
+                    float MZ = -(accel_data_short[5] - cali.MagZ);
+                    // Update(GX, GZ, -GY, AX, AZ, -AY, MX, MZ, -MY);
+                    Update(GX, GY, GZ, AX, AY, AZ, MX, MY, MZ);
+                }
+                if (Kat)  ///FIND
+                {
+                    //Quaternion quat2 = Quaternion.Invert(quat);
+                    //Quaternion quat3 = Quaternion.RotationYawPitchRoll(0, (((float)Math.PI) / 2), 0) * quat2;
+                    //Quaternion quat4 = Quaternion.Invert(Quaternion.RotationYawPitchRoll(0, -(((float)Math.PI) / 2), 0));
+                    //Quaternion quat5 = quat3 * quat4;
+
+                   // byte W = (byte)((quat5.W * 125) + 125);
+                   // byte X = (byte)((quat5.X * 125) + 125);
+                   // byte Y = (byte)((quat5.Y * 125) + 125);
+                   // byte Z = (byte)((quat5.Z * 125) + 125);
+                    //Z = Z * -1;
+                    byte M = 0;
+                //    unitydata = new byte[] { 255,(byte)(address),W,X,Y,Z,M,(byte)(address),};
+                    
+                }
+                if (docked)
+                {
+                    try {
+                        // if (Form5.Activated) ;
+                        if (cali.calibrated == true)
+                        {
+                            Form5.Form2.setValue(quat);
+                            Form5.Form2.setAccelerometerValue(AX, AY, AZ);
+                        }
+                    }
+                    catch(Exception e)
+                    {
+                        if(e.HResult == -2147467261)
+                        {
+                            
+                        }
+                    }
+                }
+                else
+                {
+
+                    try {
+                        if (cali.calibrated == true)
+                        {
+                            Form2.setValue(quat);
+                            Form2.setAccelerometerValue(AX, AY, AZ);
+                        }
+                    }
+                    catch (Exception)
+                    {
+                        
+                    }
+                }
+            }
+            if (mode == 3)
+            {
+
+
+                short counter = 0;
+                short[] accel_data_short = new short[accel_data.Count()];
+                foreach (Int32 value in accel_data)
+                {
+                    accel_data_short[counter] = Convert.ToInt16((accel_data[counter]) & 32767);
+                    if (((accel_data[counter]) & 32768) != 0)
+                    {
+                        accel_data_short[counter] = Convert.ToInt16(-32768 + accel_data_short[counter]);
+                    }
+                    counter++;
+                }
+                GyroValue = ((Math.Abs(accel_data_short[0]) + Math.Abs(accel_data_short[1]) + Math.Abs(accel_data_short[2])) / 3);
+
+                float GX = ((((float)accel_data_short[0] - (float)cali.gyroX) * 500f * (float)Math.PI) / (32758f * 180f));
+                float GY = ((((float)accel_data_short[1] - (float)cali.gyroY) * 500f * (float)Math.PI) / (32758f * 180f ));
+                float GZ = ((((float)accel_data_short[2] - (float)cali.gyroZ) * 500f * (float)Math.PI) / (32758f * 180f ));
+                AX = (int)accel_data_short[6] - cali.AccelX;
+                AY = (int)accel_data_short[7] - cali.AccelY;
+                AZ = accel_data_short[8] - cali.AccelZ;
+                int MX = ((int)accel_data_short[3] - (int)cali.MagX);
+                int MY = ((int)accel_data_short[4] - (int)cali.MagY);
+                int MZ = -((int)accel_data_short[5] - (int)cali.MagZ);
+
+               // Update(GX, GZ, -GY, AX, AZ, -AY, MX, MZ, -MY);
+                Update(GX, GY, GZ, AX, AY, AZ, MX, MY, MZ);
+                Vector3 mag = new Vector3(accel_data_short[3], accel_data_short[4], accel_data_short[5]);
+                Vector3 accel = new Vector3(accel_data_short[6], accel_data_short[7], accel_data_short[8]);
+                //mag = Vector3.Normalize(mag);
+                accel = Vector3.Normalize(accel);
+                float angle = (float)RadianToDegree(Vector3.Dot(Vector3.Normalize(mag), Vector3.Normalize(accel)));
+                byte[] byteArrayW = BitConverter.GetBytes(quat.W);
+                byte[] byteArrayX = BitConverter.GetBytes(quat.X);
+                byte[] byteArrayY = BitConverter.GetBytes(quat.Y);
+                byte[] byteArrayZ = BitConverter.GetBytes(quat.Z);
+                byte[] byteArrayMX = BitConverter.GetBytes(MX);
+                byte[] byteArrayMY = BitConverter.GetBytes(MY);
+                byte[] byteArrayMZ = BitConverter.GetBytes(MZ);
+
+                WriteDataToBox(string.Join(",", accel_data.ToArray()));
+                WriteDataToBox("\n");
+                DataReady(new byte[] { 6,
+                   (byte)message[0],
+                   (byte)message[1],
+                   (byte)message[2],
+                   (byte)message[3],
+                   (byte)message[4],
+                   (byte)message[5],
+                    (byte)message[6],
+                    (byte)message[7],
+                    (byte)message[8],
+                    (byte)message[9],
+                    (byte)message[10],
+                    (byte)message[11],
+                    //(byte)byteArrayMX[0],
+                    //(byte)byteArrayMX[1],
+                    //(byte)byteArrayMY[0],
+                    //(byte)byteArrayMY[1],
+                    //(byte)byteArrayMZ[0],
+                    //(byte)byteArrayMZ[1],
+
+                    (byte)message[12],
+                   (byte)message[13],
+                   (byte)message[14],
+                   (byte)message[15],
+                   (byte)message[16],
+                   (byte)message[17],
+                    byteArrayW[0],
+                    byteArrayW[1],
+                    byteArrayW[2],
+                    byteArrayW[3],
+                    byteArrayX[0],
+                    byteArrayX[1],
+                    byteArrayX[2],
+                    byteArrayX[3],
+                    byteArrayY[0],
+                    byteArrayY[1],
+                    byteArrayY[2],
+                    byteArrayY[3],
+                    byteArrayZ[0],
+                    byteArrayZ[1],
+                    byteArrayZ[2],
+                    byteArrayZ[3],
+
+                });
+            }
+            return (int)GyroValue;
+        }
+
+        public void loadCalifiles(string name, string _CurrentDirectory)
+        {
+            cali = new Calibration(name, _CurrentDirectory,0,0,0,0,0,0,0,0,0,true);
+        }
+    }
+    /// <summary>
+    /// Class Containing calibration variables
+    /// </summary>
+    public class Calibration{
+        public bool calibrated = false;
+        public int caliCountDown = 100;
+        public int gyroX = 0;
+        public int gyroY = 0;
+        public int gyroZ = 0;
+        public int AccelX = 0;
+        public int AccelY = 0;
+        public int AccelZ = 0;
+        public int MagX = 0;
+        public int MagY =0;
+        public int MagZ = 0;
+        private string name;
+        private string path;
+        public Calibration(string _name, string _CurrentDirectory, int _gyroX, int _gyroY, int _gyroZ, int _AccelX, int _AccelY, int _AccelZ, int _MagX, int _MagY, int _MagZ, bool read)
+        {
+            if (read)
+            {
+                name = _name;
+                path = _CurrentDirectory;
+                if (path.Substring(path.Length - 10) == "\\bin\\Debug")
+                {
+                    path += "\\IMU_Memory\\MagCali\\" + name + ".txt";
+                }
+                else
+                {
+                    path += "\\bin\\Debug\\IMU_Memory\\MagCali\\" + name + ".txt";
+                }
+
+                if (File.Exists(path))
+                {
+                    string[] CalibrationValues = File.ReadAllLines(path);
+                    int.TryParse(CalibrationValues[0], out gyroX);
+                    int.TryParse(CalibrationValues[1], out gyroY);
+                    int.TryParse(CalibrationValues[2], out gyroZ);
+                    int.TryParse(CalibrationValues[3], out AccelX);
+                    int.TryParse(CalibrationValues[4], out AccelY);
+                    int.TryParse(CalibrationValues[5], out AccelZ);
+                    int.TryParse(CalibrationValues[6], out MagX);
+                    int.TryParse(CalibrationValues[7], out MagY);
+                    int.TryParse(CalibrationValues[8], out MagZ);
+                }
+            
+        
+                return;
+            }
+
+
+
+
+        gyroX = _gyroX;
+        gyroY = _gyroY;
+        gyroZ = _gyroZ;
+        AccelX = _AccelX;
+        AccelY = _AccelY;
+        AccelZ = _AccelZ;
+        MagX = _MagX;
+        MagY = _MagY;
+        MagZ = _MagZ;
+
+            name = _name;
+            path = _CurrentDirectory;
+            if (path.Substring(path.Length - 10) == "\\bin\\Debug")
+            {
+                path += "\\IMU_Memory\\MagCali\\" + name + ".txt";
+            }
+            else
+            {
+                path += "\\bin\\Debug\\IMU_Memory\\MagCali\\" + name + ".txt";
+            }
+            
+            if (File.Exists(path))
+            {
+                File.Delete(path);
+                string[] data = {gyroX.ToString(),
+                gyroY.ToString(),
+                gyroZ.ToString(),
+                AccelX.ToString(),
+                AccelY.ToString(),
+                AccelZ.ToString(),
+                MagX.ToString(),
+                MagY.ToString(),
+                MagZ.ToString()};
+                File.WriteAllLines(path, data);
+            }
+            else{
+                string[] data = {gyroX.ToString(),
+                gyroY.ToString(),
+                gyroZ.ToString(),
+                AccelX.ToString(),
+                AccelY.ToString(),
+                AccelZ.ToString(),
+                MagX.ToString(),
+                MagY.ToString(),
+                MagZ.ToString()};
+                File.WriteAllLines(path, data);
+            }
+        }
+        public bool setData(List<int> caliData)
+        {
+            if (caliData.Max()!=0)
+            {
+                MagX = int32toint16(caliData[1] + ((caliData[0]) << 8));
+                MagY = int32toint16(caliData[3] + ((caliData[2]) << 8));
+                MagZ = int32toint16(caliData[5] + ((caliData[4]) << 8));
+                string[] CalibrationValues = File.ReadAllLines(path);
+                if (CalibrationValues.Count() == 10)
+                {
+                    int.TryParse(CalibrationValues[6], out MagX);
+                    int.TryParse(CalibrationValues[7], out MagY);
+                    int.TryParse(CalibrationValues[8], out MagZ);
+                    string[] data = {gyroX.ToString(),
+                gyroY.ToString(),
+                gyroZ.ToString(),
+                AccelX.ToString(),
+                AccelY.ToString(),
+                AccelZ.ToString(),
+                MagX.ToString(),
+                MagY.ToString(),
+                MagZ.ToString()};
+                    File.WriteAllLines((path), data);
+                    return true;
+
+                }
+                else
+                {
+                    string[] data = {gyroX.ToString(),
+                gyroY.ToString(),
+                gyroZ.ToString(),
+                AccelX.ToString(),
+                AccelY.ToString(),
+                AccelZ.ToString(),
+                MagX.ToString(),
+                MagY.ToString(),
+                MagZ.ToString()};
+                    File.WriteAllLines((path), data);
+                    return false;
+                }
+
+            }
+            return false;
+        }
+        public int int32toint16(int value)
+        {
+            int newvalue = Convert.ToInt16((value) & 32767);
+            if (((value) & 32768) != 0)
+            {
+                newvalue = Convert.ToInt16(-32768 + newvalue);
+            }
+            return newvalue;
+        }
+    }
+
+
+
+    public class WorkerClass
+    {
+
+        public MMGProcessorClass MMGProcessor = new MMGProcessorClass();
+        private ManualResetEvent _doneEvent;
+        public int value;
+        public float saveValue;
+        public WorkerClass(ManualResetEvent doneEvent, int _value, List<int> Data, List<double> Memory, int Current, int threshold)
+        {
+            MMGProcessor.initialise(500, 4, threshold, 1f, 40, 1, Data, Memory, Current);
+            value = _value;
+            _doneEvent = doneEvent;
+        }
+        public void ThreadPoolCallback(Object threadContext)
+        {
+            bool trigger = MMGProcessor.AddData(value);
+            if (trigger)
+            {
+                trigger = !trigger;
+            }
+            if (MMGProcessor.val != 0 && threadContext.Equals(3))
+            {
+
+                saveValue = (float)MMGProcessor.val;
+            }
+            _doneEvent.Set();
+
+        }
+
+    }
+}

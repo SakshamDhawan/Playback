@@ -1,0 +1,1034 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>InTheHand</name>
+    </assembly>
+    <members>
+        <member name="T:InTheHand.ApplicationModel.Calls.PhoneCallManager">
+            <summary>
+            Provides methods for launching the built-in phone call UI.
+            </summary>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.Calls.PhoneCallManager.ShowPhoneCallUI(System.String,System.String)">
+            <summary>
+            Launches the built-in phone call UI with the specified phone number and display name.
+            </summary>
+            <param name="phoneNumber">A phone number.
+            This should be in international format e.g. +12345678901</param>
+            <param name="displayName">A display name.</param>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.Calls.PhoneCallManager.ShowPhoneCallUI(System.String,System.String,System.Boolean)">
+            <summary>
+            Launches the built-in phone call UI with the specified phone number and display name.
+            </summary>
+            <param name="phoneNumber">A phone number.
+            This should be in international format e.g. +12345678901</param>
+            <param name="displayName">A display name.</param>
+            <param name="promptUser">A value indicating whether to prompt the user first.
+            Not supported on Windows platforms.</param>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.Capability">
+            <summary>
+            Application Capabilities
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.Capability.Appointments">
+            <summary>
+            The Appointments capability provides access to the user’s appointment store. 
+            This capability allows read access to appointments obtained from the synced network accounts and to other apps that write to the appointment store
+            With this capability, your app can create new calendars and write appointments to calendars that it creates.
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.Capability.Contacts">
+            <summary>
+            The Contacts capability provides access to the aggregated view of the contacts from various contacts stores.
+            This capability gives the app limited access (network permitting rules apply) to contacts that were synced from various networks and the local contact store.
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.Capability.Music">
+            <summary>
+            The MusicLibrary capability provides programmatic access to the user's Music, allowing the app to enumerate and access all files in the library without user interaction
+            This capability is typically used in jukebox apps that need to access the entire Music library. 
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.Capability.Pictures">
+            <summary>
+            The PicturesLibrary capability provides programmatic access to the user's Pictures, allowing the app to enumerate and access all files in the library without user interaction.
+            This capability is typically used in photo playback apps that need to access the entire Pictures library. 
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.Capability.Videos">
+            <summary>
+            The VideosLibrary capability provides programmatic access to the user's Videos, allowing the app to enumerate and access all files in the library without user interaction.
+            This capability is typically used in movie playback apps that need access to the entire Videos library. 
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.Capability.Internet">
+            <summary>
+            Application requires network access.
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.Capability.PhoneDialer">
+            <summary>
+            Application requires the ability to make phone calls.
+            <para>Silverlight Only</para>
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.Capability.PushNotification">
+            <summary>
+            Application requires access to push notifications.
+            <para>Silverlight Only</para>
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.Capability.RemovableStorage">
+            <summary>
+            The RemovableStorage capability provides programmatic access to files on removable storage, such as USB keys and external hard drives, filtered to the file type associations declared in the package manifest.
+            For example, if a DOC reader app declared a .doc file type association, it can open .doc files on the removable storage device, but not other types of files.
+            Be careful when declaring this capability, because users may include a variety of info in their removable storage devices, and will expect the app to provide a valid justification for programmatic access to the removable storage for the entire file type.
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.Capability.SpeechRecognition">
+            <summary>
+            <para>Silverlight Only</para>
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.Capability.Voip">
+            <summary>
+            <para>Silverlight Only</para>
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.Capability.Wallet">
+            <summary>
+            <para>Silverlight Only</para>
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.Capability.EnterpriseAuthentication">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.Capability.SharedUserCertificates">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.Capability.DocumentsLibrary">
+            <summary>
+            The DocumentsLibrary capability provides programmatic access to the user's Documents, filtered to the file type associations declared in the package manifest, to support offline access to OneDrive.
+            For example, if a DOC reader app declared a .doc file type association, it can open .doc files in Documents, but not other types of files. 
+            </summary>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.DeviceCapability">
+            <summary>
+            Device capabilities allow your app to access peripheral and internal devices. Device capabilities are specified with the DeviceCapability element in your app package manifest.
+            This element may require additional child elements and some device capabilities need to be added to the package manifest manually
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.DeviceCapability.Location">
+            <summary>
+            The Location capability provides access to location functionality, which you get from dedicated hardware like a GPS sensor in the PC or is derived from available network info.
+            Apps must handle the case where the user has disabled location services from settings.
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.DeviceCapability.Microphone">
+            <summary>
+            The Microphone capability provides access to the microphone’s audio feed, which allows the app to record audio from connected microphones.
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.DeviceCapability.Proximity">
+            <summary>
+            The Proximity capability enables multiple devices in close proximity to communicate with one another.
+            This capability is typically used in casual multi-player games and in apps that exchange information.
+            Devices attempt to use the communication technology that provides the best possible connection, including Bluetooth, WiFi, and the internet.
+            This capability is used only to initiate communication between the devices.
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.DeviceCapability.Camera">
+            <summary>
+            The Camera capability provides access to the video feed of a built-in camera or external webcam, which allows the app to capture photos and videos.
+            On Windows, apps must handle the case where the user has disabled the camera from the Settings charm.
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.DeviceCapability.Usb">
+            <summary>
+            The Usb device capability enables access to APIs in the Windows.Devices.Usb namespace. 
+            By using the namespace, you can write an app that talks to a custom USB device. 
+            "Custom" in this context means, a peripheral device for which Microsoft does not provide an in-box class driver.
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.DeviceCapability.HumanInterfaceDevice">
+            <summary>
+            The HumanInterfaceDevice device capability enables access to APIs in the Windows.Devices.HumanInterfaceDevice namespace. 
+            This namespace lets your app access devices that support the Human Interface Device (HID) protocol.
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.DeviceCapability.Bluetooth">
+            <summary>
+            The bluetooth device capability enables access to APIs in the Windows.Devices.Bluetooth.GenericAttributeProfile and Windows.Devices.Bluetooth.Rfcomm namespaces.
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.DeviceCapability.PointOfService">
+            <summary>
+            The PointOfService device capability enables access to APIs in the Windows.Devices.PointOfService namespace.
+            This namespace lets your Windows Store app access Point of Service (POS) barcode scanners and magnetic stripe readers.
+            The namespace provides a vendor-neutral interface for accessing POS devices from various manufacturers from a Windows Store app.
+            </summary>
+        </member>
+        <member name="F:InTheHand.ApplicationModel.DeviceCapability.Sensors">
+            <summary>
+            Application requires access to the accelerometer.
+            <para>Silverlight Only</para>
+            </summary>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.Chat.ChatMessage">
+            <summary>
+            Represents a chat message.
+            </summary>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.Chat.ChatMessage.#ctor">
+            <summary>
+            Creates a new instance of the <see cref="T:InTheHand.ApplicationModel.Chat.ChatMessage"/> class.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.Chat.ChatMessage.Body">
+            <summary>
+            Gets or sets the body of the chat message.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.Chat.ChatMessage.Recipients">
+            <summary>
+            Gets the list of recipients of the message.
+            </summary>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.Chat.ChatMessageManager">
+            <summary>
+            Provides methods for managing chat messages.
+            </summary>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.Chat.ChatMessageManager.ShowComposeSmsMessageAsync(InTheHand.ApplicationModel.Chat.ChatMessage)">
+            <summary>
+            Shows the compose SMS dialog, pre-populated with data from the supplied ChatMessage object, allowing the user to send an SMS message.
+            </summary>
+            <param name="message">The chat message.</param>
+            <returns>An asynchronous action.</returns>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.DataTransfer.Clipboard">
+            <summary>
+            Gets and sets information from the clipboard object.
+            </summary>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.DataTransfer.Clipboard.Clear">
+            <summary>
+            Removes all data from the Clipboard.
+            </summary>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.DataTransfer.Clipboard.GetContent">
+            <summary>
+            Gets the current content that is stored in the clipboard object.
+            </summary>
+            <returns>Contains the content of the Clipboard.</returns>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.DataTransfer.Clipboard.SetContent(InTheHand.ApplicationModel.DataTransfer.DataPackage)">
+            <summary>
+            Sets the current content that is stored in the clipboard object.
+            </summary>
+            <param name="content">Contains the content of the clipboard.
+            If NULL, the clipboard is emptied.</param>
+        </member>
+        <member name="E:InTheHand.ApplicationModel.DataTransfer.Clipboard.ContentChanged">
+            <summary>
+            Occurs when the data stored in the Clipboard changes.
+            </summary>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.DataTransfer.DataPackage">
+            <summary>
+            Contains the data that a user wants to exchange with another app.
+            </summary>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.DataTransfer.DataPackage.#ctor">
+            <summary>
+            Constructor that creates a new <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackage"/>.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.DataTransfer.DataPackage.Properties">
+            <summary>
+            Allows you to get and set properties like the title of the content being shared.
+            </summary>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.DataTransfer.DataPackage.GetView">
+            <summary>
+            Returns a <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackageView"/> object.
+            This object is a read-only copy of the <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackage"/> object.
+            </summary>
+            <returns>The object that is a read-only copy of the <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackage"/> object.</returns>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.DataTransfer.DataPackage.SetData(System.String,System.Object)">
+            <summary>
+            Sets the data contained in the DataPackage.
+            </summary>
+            <param name="formatId">Specifies the format of the data.
+            We recommend that you set this value by using the StandardDataFormats class.</param>
+            <param name="value">Specifies the content that the DataPackage contains.</param>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.DataTransfer.DataPackage.SetDataProvider(System.String,InTheHand.ApplicationModel.DataTransfer.DataProviderHandler)">
+            <summary>
+            Sets a delegate to handle requests from the target app.
+            </summary>
+            <param name="formatId">Specifies the format of the data.
+            We recommend that you set this value by using the StandardDataFormats class.</param>
+            <param name="delayRenderer">A delegate that is responsible for processing requests from a target app.</param>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.DataTransfer.DataPackage.SetText(System.String)">
+            <summary>
+            Sets the text that a <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackage"/> contains.
+            </summary>
+            <param name="value">The text.</param>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.DataTransfer.DataPackage.SetWebLink(System.Uri)">
+            <summary>
+            Sets the web link that a <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackage"/> contains.
+            </summary>
+            <param name="value">A URI with an http or https scheme that corresponds to the content being displayed to the user.</param>
+            <remarks>Whenever possible, you should set this property.
+            A source app provides a value for this property, and a target app reads the value.
+            Use this property to indicate the source of the shared content.</remarks>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.DataTransfer.DataPackage.SetApplicationLink(System.Uri)">
+            <summary>
+            Sets the application link that a <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackage"/> contains.
+            </summary>
+            <param name="value">A URI with a scheme that isn't http or https that's handled by the source app. </param>
+            <remarks>Whenever possible, you should set this property.
+            This URI represents a deep link that takes the user back to the currently displayed content.
+            A source app provides a value for this property, and a target app reads the value.
+            Use this property to indicate the source of the shared content. 
+            <para>The scheme of this URI must not be http or https.
+            The app sharing this URI must be capable of being the default handler, although it may not be set as the default handler.</para></remarks>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.DataTransfer.DataPackagePropertySet">
+            <summary>
+            Defines a set of properties to use with a <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackage"/> object.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.DataTransfer.DataPackagePropertySet.Title">
+            <summary>
+            Gets or sets the text that displays as a title for the contents of the <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackage"/> object.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.DataTransfer.DataPackagePropertySet.Description">
+            <summary>
+            Gets or sets text that describes the contents of the <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackage"/>.
+            </summary>
+            <remarks>We recommend adding a description to a DataPackage object if you can.
+            Target apps can use this description to help users identify what content they're sharing.</remarks>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.DataTransfer.DataPackagePropertySetView">
+            <summary>
+            Gets the set of properties of a <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackageView"/> object.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.DataTransfer.DataPackagePropertySetView.Title">
+            <summary>
+            Gets the text that displays as a title for the contents of the <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackageView"/> object.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.DataTransfer.DataPackagePropertySetView.Description">
+            <summary>
+            Gets the text that describes the contents of the <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackage"/>.
+            </summary>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.DataTransfer.DataPackageView">
+            <summary>
+            A read-only version of a <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackage"/>.
+            Apps that receive shared content get this object when acquiring content.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.DataTransfer.DataPackageView.AvailableFormats">
+            <summary>
+            Returns the formats the <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackageView"/> contains.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.DataTransfer.DataPackageView.Properties">
+            <summary>
+            Gets a <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackagePropertySetView"/> object, which contains a read-only set of properties for the data in the <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackageView"/> object.
+            </summary>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.DataTransfer.DataPackageView.Contains(System.String)">
+            <summary>
+            Checks to see if the <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackageView"/> contains a specific data format.
+            </summary>
+            <param name="formatId">The name of the format.</param>
+            <returns>True if the <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackageView"/> contains the format; false otherwise.</returns>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.DataTransfer.DataPackageView.GetDataAsync(System.String)">
+            <summary>
+            Gets the data contained in the <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackageView"/>.
+            </summary>
+            <param name="formatId">The format of the data.</param>
+            <returns>The data.</returns>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.DataTransfer.DataPackageView.GetTextAsync">
+            <summary>
+            Gets the text in the <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackageView"/> object.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.DataTransfer.DataPackageView.GetApplicationLinkAsync">
+            <summary>
+            Gets the application link in the <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackageView"/> object.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.DataTransfer.DataPackageView.GetWebLinkAsync">
+            <summary>
+            Gets the web link in the <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataPackageView"/> object.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.DataTransfer.DataProviderRequest">
+            <summary>
+            An object of this type is passed to the <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataProviderHandler"/> delegate. 
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.DataTransfer.DataProviderRequest.FormatId">
+            <summary>
+            Specifies the format id.
+            </summary>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.DataTransfer.DataProviderRequest.SetData(System.Object)">
+            <summary>
+            Sets the content of the DataPackage to be shared with a target app.
+            </summary>
+            <param name="value">The object associated with a particular format in the DataPackage.</param>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.DataTransfer.DataProviderHandler">
+            <summary>
+            Provides data when the target app requests it, instead of including the data in the DataPackage ahead of time.
+            DataProviderHandler is used when the source app wants to avoid unnecessary work that is resource intensive, such as performing format conversions.
+            </summary>
+            <param name="request">Contains the data that the user wants to share.</param>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.DataTransfer.DataRequestedEventArgs">
+            <summary>
+            Contains information about the DataRequested event.
+            The system fires this event when the user invokes the Share UI.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.DataTransfer.DataRequestedEventArgs.Request">
+            <summary>
+            Enables you to get the DataRequest object and either give it data or a failure message.
+            </summary>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.DataTransfer.DataRequest">
+            <summary>
+            Lets your app supply the content the user wants to share or specify a message, if an error occurs.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.DataTransfer.DataRequest.Data">
+            <summary>
+            Sets or gets a DataPackage object that contains the content a user wants to share.
+            </summary>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.DataTransfer.DataTransferManager">
+            <summary>
+            Programmatically initiates an exchange of content with other apps.
+            </summary>
+            <remarks>The <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataTransferManager"/> class is a static class that you use to initiate sharing operations.
+            To use the class, first call the <see cref="M:InTheHand.ApplicationModel.DataTransfer.DataTransferManager.GetForCurrentView"/> method.
+            This method returns the <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataTransferManager"/> object that is specific to the active window.
+            Next, you need to add an event listener for the datarequested event to the object.
+            This event is fired when your app starts a share operation programmatically.
+            <para>The DataTransferManager class includes a <see cref="M:InTheHand.ApplicationModel.DataTransfer.DataTransferManager.ShowShareUI"/> method, which you can use to programmatically start a share operation.
+            In general, we recommend against using this method.
+            Users expect to initiate share operations by using the Share charm—when you launch the operation programmatically, you can create an inconsistent user experience.
+            We include the method because there are a few scenarios in which the user might not recognize opportunities to share.
+            A good example is when the user achieves a high score in a game.</para>
+            <para>The <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataTransferManager"/> class also has a <see cref="E:InTheHand.ApplicationModel.DataTransfer.DataTransferManager.TargetApplicationChosen"/> event.
+            Use this event when you want to capture what applications a user selects when sharing content from your app.</para></remarks>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.DataTransfer.DataTransferManager.GetForCurrentView">
+            <summary>
+            Returns the <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataTransferManager"/> object associated with the current window.
+            </summary>
+            <returns>The <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataTransferManager"/> object associated with the current window.</returns>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.DataTransfer.DataTransferManager.ShowShareUI">
+            <summary>
+            Programmatically initiates the user interface for sharing content with another app.
+            </summary>
+        </member>
+        <member name="E:InTheHand.ApplicationModel.DataTransfer.DataTransferManager.DataRequested">
+            <summary>
+            Occurs when a share operation starts.
+            </summary>
+            <remarks>This event is fired when a sharing operation starts.
+            To handle this event, you need to add an event listener to the <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataTransferManager"/> object for the active window.
+            You can get this object through the <see cref="M:InTheHand.ApplicationModel.DataTransfer.DataTransferManager.GetForCurrentView"/> method.
+            <para>When handling a datarequested event, the most important property you need to be aware of is its request property.
+            This property contains a <see cref="T:InTheHand.ApplicationModel.DataTransfer.DataRequest"/> object.
+            Your app uses this object to provide the data that the user wants to share with a selected target app.</para></remarks>
+        </member>
+        <member name="E:InTheHand.ApplicationModel.DataTransfer.DataTransferManager.TargetApplicationChosen">
+            <summary>
+            Occurs when the user chooses a target app in a Share operation.
+            </summary>
+            <remarks>When the user chooses a target app to share content with, the system fires a TargetApplicationChosen event.
+            The app receiving the event can use this event to record information about the target app for business intelligence.
+            A common use of this event is to record which applications are used to complete different sharing actions, which in turn can help the source app create better experiences for the user.</remarks>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.DataTransfer.StandardDataFormats">
+            <summary>
+            Contains static properties that return string values.
+            Each string corresponds to a known format ID.
+            Use this class to avoid errors in using string constants to specify data formats.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.DataTransfer.StandardDataFormats.Text">
+            <summary>
+            A read-only property that returns the format ID string value corresponding to the Text format.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.DataTransfer.StandardDataFormats.WebLink">
+            <summary>
+            A read-only property that returns the format ID string value corresponding to the Uniform Resource Identifier (URI) format.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.DataTransfer.StandardDataFormats.ApplicationLink">
+            <summary>
+            A read-only property that returns the format ID string value corresponding to the Uniform Resource Identifier (URI) format.
+            </summary>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.DataTransfer.TargetApplicationChosenEventArgs">
+            <summary>
+            Contains information about the target app the user chose to share content with.
+            To get this object, you must handle the TargetApplicationChosen event.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.DataTransfer.TargetApplicationChosenEventArgs.ApplicationName">
+            <summary>
+            Contains the name of the app that the user chose to share content with.
+            </summary>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.DesignMode">
+            <summary>
+            Enables you to detect whether your app is in design mode in a visual designer.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.DesignMode.DesignModeEnabled">
+            <summary>
+            Gets a value that indicates whether the process is running in design mode.
+            </summary>
+            <value>True if the process is running in design mode; otherwise false.</value>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.Email.EmailManager">
+            <summary>
+            Allows an application to launch the email application with a new message displayed.
+            Use this to allow users to send email from your application.
+            </summary>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.Email.EmailManager.ShowComposeNewEmailAsync(InTheHand.ApplicationModel.Email.EmailMessage)">
+            <summary>
+            Launches the email application with a new message displayed.
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.Email.EmailMessage">
+            <summary>
+            Represents an email message.
+            </summary>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.Email.EmailMessage.#ctor">
+            <summary>
+            Creates an instance of the <see cref="T:InTheHand.ApplicationModel.Email.EmailMessage"/> class.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.Email.EmailMessage.Subject">
+            <summary>
+            Gets or sets the subject of the email message.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.Email.EmailMessage.Body">
+            <summary>
+            Gets or sets the body of the email message.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.Email.EmailMessage.To">
+            <summary>
+            Gets the direct recipients of the email message.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.Email.EmailMessage.CC">
+            <summary>
+            Gets the recipients CC'd to the email message.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.Email.EmailMessage.Bcc">
+            <summary>
+            Gets the recipients BCC'd to the email message.
+            </summary>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.Email.EmailRecipient">
+            <summary>
+            Represents an email recipient.
+            </summary>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.Email.EmailRecipient.#ctor">
+            <summary>
+            Initializes an instance of the EmailRecipient class.
+            </summary>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.Email.EmailRecipient.#ctor(System.String)">
+            <summary>
+            Initializes an instance of the EmailRecipient class.
+            </summary>
+            <param name="address">The address of the recipient.</param>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.Email.EmailRecipient.#ctor(System.String,System.String)">
+            <summary>
+            Initializes an instance of the EmailRecipient class.
+            </summary>
+            <param name="address">The address of the recipient.</param>
+            <param name="name">The name of the recipient.</param>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.Email.EmailRecipient.Address">
+            <summary>
+            Gets or sets the address of the email recipient.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.Email.EmailRecipient.Name">
+            <summary>
+            Gets or sets the name of the email recipient.
+            </summary>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.Package">
+            <summary>
+            Provides information about a package.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.Package.Current">
+            <summary>
+            Gets the package for the current app.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.Package.Capabilities">
+            <summary>
+            Application capabilities requested by the package.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.Package.Description">
+            <summary>
+            Gets the description of the package.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.Package.DeviceCapabilities">
+            <summary>
+            Device capabilities requested by the package.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.Package.DisplayName">
+            <summary>
+            Gets the display name of the package.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.Package.Id">
+            <summary>
+            Gets the package identity of the current package.
+            </summary>
+            <value>The package identity.</value>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.Package.InstalledDate">
+            <summary>
+            Gets the date the application package was installed on the user's phone.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.Package.IsDevelopmentMode">
+            <summary>
+            Indicates whether the package is installed in development mode.
+            </summary>
+            <remarks>A Boolean value that indicates whether the package is installed in development mode.
+            TRUE indicates that the package is installed in development mode; otherwise FALSE.</remarks>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.Package.Logo">
+            <summary>
+            Gets the logo of the package.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.Package.PublisherDisplayName">
+            <summary>
+            Gets the publisher display name of the package.
+            </summary>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.PackageId">
+            <summary>
+            Provides package identification info, such as name, version, and publisher.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.PackageId.FullName">
+            <summary>
+            Gets the name of the package.
+            </summary>
+            <value>The package name.</value>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.PackageId.Name">
+            <summary>
+            Gets the name of the package.
+            </summary>
+            <value>The package name.</value>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.PackageId.Version">
+            <summary>
+            Gets the package version info.
+            </summary>
+            <value>The package version information.</value>
+        </member>
+        <member name="T:InTheHand.ApplicationModel.Store.CurrentApp">
+            <summary>
+            Defines methods and properties you can use to get license and listing info about the current app and perform in-app purchases.
+            </summary>
+        </member>
+        <member name="P:InTheHand.ApplicationModel.Store.CurrentApp.AppId">
+            <summary>
+            Gets the GUID generated by the Windows Store when your app has been certified for listing in the Windows Store.
+            </summary>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.Store.CurrentApp.RequestDetailsAsync">
+            <summary>
+            Creates the async operation that enables the user to view the app details.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:InTheHand.ApplicationModel.Store.CurrentApp.RequestReviewAsync">
+            <summary>
+            Creates the async operation that enables the user to review the current app.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:InTheHand.Graphics.Display.DisplayInformation">
+            <summary>
+            Monitors and controls physical display information.
+            The class provides events to allow clients to monitor for changes in the display.
+            </summary>
+        </member>
+        <member name="M:InTheHand.Graphics.Display.DisplayInformation.GetForCurrentView">
+            <summary>
+            Gets the current physical display information.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:InTheHand.Graphics.Display.DisplayInformation.RawDpiX">
+            <summary>
+            Gets the raw dots per inch (DPI) along the x axis of the display monitor.
+            </summary>
+        </member>
+        <member name="P:InTheHand.Graphics.Display.DisplayInformation.RawDpiY">
+            <summary>
+            Gets the raw dots per inch (DPI) along the y axis of the display monitor.
+            </summary>
+        </member>
+        <member name="P:InTheHand.Graphics.Display.DisplayInformation.RawPixelsPerViewPixel">
+            <summary>
+            Gets a value representing the number of raw (physical) pixels for each view (layout) pixel.
+            </summary>
+        </member>
+        <member name="P:InTheHand.Graphics.Display.DisplayInformation.ResolutionScale">
+            <summary>
+            Gets the scale factor of the immersive environment.
+            </summary>
+        </member>
+        <member name="T:InTheHand.Graphics.Display.ResolutionScale">
+            <summary>
+            Describes the scale factor of the immersive environment.
+            The scale factor is determined by the operating system in response to high pixel density screens.
+            </summary>
+        </member>
+        <member name="F:InTheHand.Graphics.Display.ResolutionScale.Invalid">
+            <summary>
+            Specifies the scale of a display is invalid.
+            </summary>
+        </member>
+        <member name="F:InTheHand.Graphics.Display.ResolutionScale.Scale100Percent">
+            <summary>
+            Specifies the scale of a display as 100 percent. 
+            This percentage indicates a screen resolution of 480x800.
+            </summary>
+        </member>
+        <member name="F:InTheHand.Graphics.Display.ResolutionScale.Scale150Percent">
+            <summary>
+            Specifies the scale of a display as 150 percent. 
+            This percentage indicates a screen resolution of 720x1280.
+            </summary>
+        </member>
+        <member name="F:InTheHand.Graphics.Display.ResolutionScale.Scale160Percent">
+            <summary>
+            Specifies the scale of a display as 160 percent. 
+            This percentage indicates a screen resolution of 768x1280.
+            </summary>
+        </member>
+        <member name="F:InTheHand.Graphics.Display.ResolutionScale.Scale225Percent">
+            <summary>
+            Specifies the scale of a display as 225 percent. 
+            This percentage indicates a screen resolution of 1080x1920.
+            </summary>
+        </member>
+        <member name="T:InTheHand.Networking.Connectivity.ConnectionProfile">
+            <summary>
+            Represents a network connection, which includes either the currently connected network or prior network connections.
+            </summary>
+        </member>
+        <member name="M:InTheHand.Networking.Connectivity.ConnectionProfile.GetNetworkConnectivityLevel">
+            <summary>
+            Gets the network connectivity level for this connection.
+            This value indicates what network resources, if any, are currently available.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:InTheHand.Networking.Connectivity.NetworkConnectivityLevel">
+            <summary>
+            Defines the level of connectivity currently available.
+            </summary>
+        </member>
+        <member name="F:InTheHand.Networking.Connectivity.NetworkConnectivityLevel.None">
+            <summary>
+            No connectivity.
+            </summary>
+        </member>
+        <member name="F:InTheHand.Networking.Connectivity.NetworkConnectivityLevel.LocalAccess">
+            <summary>
+            Local network access only.
+            </summary>
+        </member>
+        <member name="F:InTheHand.Networking.Connectivity.NetworkConnectivityLevel.ConstrainedInternetAccess">
+            <summary>
+            Limited internet access. 
+            <para>This value indicates captive portal connectivity, where local access to a web portal is provided, but access to the Internet requires that specific credentials are provided via the portal.
+            This level of connectivity is generally encountered when using connections hosted in public locations (e.g. coffee shops and book stores).</para>
+            Note  This doesn't guarantee detection of a captive portal.
+            Windows Store apps should also test if the captive portal can be reached using a URL for the captive portal, or by attempting access to a public web site which will then redirect to the captive portal when Windows reports LocalAccess as the current NetworkConnectivityLevel.
+            </summary>
+        </member>
+        <member name="F:InTheHand.Networking.Connectivity.NetworkConnectivityLevel.InternetAccess">
+            <summary>
+            Local and Internet access.
+            </summary>
+        </member>
+        <member name="T:InTheHand.Networking.Connectivity.NetworkInformation">
+            <summary>
+            Provides access to network connection information for the local machine.
+            </summary>
+        </member>
+        <member name="M:InTheHand.Networking.Connectivity.NetworkInformation.GetInternetConnectionProfile">
+            <summary>
+            Gets the connection profile associated with the internet connection currently used by the local machine.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="E:InTheHand.Networking.Connectivity.NetworkInformation.NetworkStatusChanged">
+            <summary>
+            Occurs when the network status changes for a connection.
+            </summary>
+        </member>
+        <member name="T:InTheHand.Networking.Connectivity.NetworkStatusChangedEventHandler">
+            <summary>
+            Represents the method that handles network status change notifications.
+            This method is called when any properties exposed by the <see cref="T:InTheHand.Networking.Connectivity.NetworkInformation"/> object changes while the app is active.
+            </summary>
+            <param name="sender"></param>
+        </member>
+        <member name="T:InTheHand.Storage.ApplicationData">
+            <summary>
+            Provides access to the application data store.
+            Application data consists of settings that are local.
+            </summary>
+        </member>
+        <member name="P:InTheHand.Storage.ApplicationData.Current">
+            <summary>
+            Provides access to the app data store associated with the app's app package.
+            </summary>
+        </member>
+        <member name="P:InTheHand.Storage.ApplicationData.LocalSettings">
+            <summary>
+            Gets the application settings container in the local app data store.
+            </summary>
+            <value>The application settings container.</value>
+        </member>
+        <member name="T:InTheHand.Storage.ApplicationDataContainer">
+            <summary>
+            Represents a container for app settings.
+            The methods and properties of this class support creating, deleting, enumerating, and traversing the container hierarchy.
+            </summary>
+        </member>
+        <member name="P:InTheHand.Storage.ApplicationDataContainer.Values">
+            <summary>
+            Gets an object that represents the settings in this settings container.
+            </summary>
+            <value>The settings map object.</value>
+        </member>
+        <member name="T:InTheHand.Storage.ApplicationDataContainerSettings">
+            <summary>
+            Provides access to the settings in a settings container.
+            </summary>
+        </member>
+        <member name="M:InTheHand.Storage.ApplicationDataContainerSettings.Add(System.String,System.Object)">
+            <summary>
+            Adds an item to the <see cref="T:InTheHand.Storage.ApplicationDataContainerSettings"/>. 
+            </summary>
+            <param name="key">The key of the item to add.</param>
+            <param name="value">The item value to add.</param>
+        </member>
+        <member name="M:InTheHand.Storage.ApplicationDataContainerSettings.ContainsKey(System.String)">
+            <summary>
+            Returns a value that indicates whether a specified key exists in the <see cref="T:InTheHand.Storage.ApplicationDataContainerSettings"/>.
+            </summary>
+            <param name="key">The key to check for in the <see cref="T:InTheHand.Storage.ApplicationDataContainerSettings"/>.</param>
+            <returns>true if an item with that key exists in the <see cref="T:InTheHand.Storage.ApplicationDataContainerSettings"/>; otherwise, false. </returns>
+        </member>
+        <member name="P:InTheHand.Storage.ApplicationDataContainerSettings.Keys">
+            <summary>
+            Gets an ICollection object containing the keys of the <see cref="T:InTheHand.Storage.ApplicationDataContainerSettings"/>.
+            </summary>
+        </member>
+        <member name="M:InTheHand.Storage.ApplicationDataContainerSettings.Remove(System.String)">
+            <summary>
+            Removes a specific item from the <see cref="T:InTheHand.Storage.ApplicationDataContainerSettings"/>.
+            </summary>
+            <param name="key">The key of the item to remove.</param>
+            <returns>true if the item was removed, otherwise false.</returns>
+        </member>
+        <member name="M:InTheHand.Storage.ApplicationDataContainerSettings.TryGetValue(System.String,System.Object@)">
+            <summary>
+            Returns a value that indicates whether a specified key exists in the <see cref="T:InTheHand.Storage.ApplicationDataContainerSettings"/>.
+            If an item with that key exists, the item is retrieved as an out parameter.
+            </summary>
+            <param name="key">The key to check for in the <see cref="T:InTheHand.Storage.ApplicationDataContainerSettings"/>.</param>
+            <param name="value">The item, if it exists.
+            Contains null if the item does not exist in the <see cref="T:InTheHand.Storage.ApplicationDataContainerSettings"/>.</param>
+            <returns>true if an item with that key exists in the <see cref="T:InTheHand.Storage.ApplicationDataContainerSettings"/>; otherwise, false.</returns>
+        </member>
+        <member name="P:InTheHand.Storage.ApplicationDataContainerSettings.Values">
+            <summary>
+            Gets an ICollection object containing the values of the <see cref="T:InTheHand.Storage.ApplicationDataContainerSettings"/>.
+            </summary>
+        </member>
+        <member name="P:InTheHand.Storage.ApplicationDataContainerSettings.Item(System.String)">
+            <summary>
+            Gets or sets the element value at the specified key index.
+            </summary>
+            <param name="key"></param>
+            <returns>The element value at the specified key index.</returns>
+        </member>
+        <member name="M:InTheHand.Storage.ApplicationDataContainerSettings.Add(System.Collections.Generic.KeyValuePair{System.String,System.Object})">
+            <summary>
+            Adds a new key-value pair to the ApplicationDataContainerSettings. 
+            </summary>
+            <param name="item">The key-value pair to add.</param>
+        </member>
+        <member name="M:InTheHand.Storage.ApplicationDataContainerSettings.Clear">
+            <summary>
+            Removes all related application settings.
+            </summary>
+        </member>
+        <member name="M:InTheHand.Storage.ApplicationDataContainerSettings.Contains(System.Collections.Generic.KeyValuePair{System.String,System.Object})">
+            <summary>
+            Returns a value that indicates whether a specified key-value pair exists in the ApplicationDataContainerSettings.
+            </summary>
+            <param name="item">The key-value pair to check for in the ApplicationDataContainerSettings.</param>
+            <returns></returns>
+        </member>
+        <member name="M:InTheHand.Storage.ApplicationDataContainerSettings.CopyTo(System.Collections.Generic.KeyValuePair{System.String,System.Object}[],System.Int32)">
+            <summary>
+            Copies the elements of the collection to an array, starting at a particular array index. 
+            </summary>
+            <param name="array">The one-dimensional Array that is the destination of the elements copied from the collection.
+            The Array must have zero-based indexing.</param>
+            <param name="arrayIndex">The zero-based index in array at which copying begins. </param>
+        </member>
+        <member name="P:InTheHand.Storage.ApplicationDataContainerSettings.Count">
+            <summary>
+            Gets the number of elements contained in the collection.
+            </summary>
+        </member>
+        <member name="P:InTheHand.Storage.ApplicationDataContainerSettings.IsReadOnly">
+            <summary>
+            Gets a value indicating whether the dictionary is read-only. 
+            </summary>
+            <value>true if the dictionary is read-only; otherwise, false.</value>
+        </member>
+        <member name="M:InTheHand.Storage.ApplicationDataContainerSettings.Remove(System.Collections.Generic.KeyValuePair{System.String,System.Object})">
+            <summary>
+            Removes a specific key-value pair from the <see cref="T:InTheHand.Storage.ApplicationDataContainerSettings"/>. 
+            </summary>
+            <param name="item">The key-value pair to remove.</param>
+            <returns>true if the item was removed, otherwise false.</returns>
+        </member>
+        <member name="T:InTheHand.System.Launcher">
+            <summary>
+            Starts the default app associated with the specified file or URI.
+            </summary>
+        </member>
+        <member name="M:InTheHand.System.Launcher.LaunchUriAsync(System.Uri,InTheHand.System.LauncherOptions)">
+            <summary>
+            Starts the default app associated with the URI scheme name for the specified URI.
+            </summary>
+            <param name="uri">The URI.</param>
+            <param name="options">Ignored on Android and iOS.</param>
+            <returns>The launch operation.</returns>
+        </member>
+        <member name="M:InTheHand.System.Launcher.LaunchUriAsync(System.Uri)">
+            <summary>
+            Starts the default app associated with the URI scheme name for the specified URI.
+            </summary>
+            <param name="uri">The URI.</param>
+            <returns>The launch operation.</returns>
+        </member>
+        <member name="T:InTheHand.System.LauncherOptions">
+            <summary>
+            Placeholder to supply attributes for starting a task.
+            </summary>
+        </member>
+        <member name="T:InTheHand.DateTimeOffsetHelper">
+            <summary>
+            Helper class for <see cref="T:System.DateTimeOffset"/>.
+            </summary>
+        </member>
+        <member name="M:InTheHand.DateTimeOffsetHelper.FromUnixTimeSeconds(System.Int64)">
+            <summary>
+            Converts a Unix time expressed as the number of seconds that have elapsed since 1970-01-01T00:00:00Z to a <see cref="T:System.DateTimeOffset"/> value. 
+            </summary>
+            <param name="seconds">A Unix time, expressed as the number of seconds that have elapsed since 1970-01-01T00:00:00Z (January 1, 1970, at 12:00 AM UTC).
+            For Unix times before this date, its value is negative.</param>
+            <returns>A date and time value that represents the same moment in time as the Unix time. </returns>
+        </member>
+        <member name="M:InTheHand.DateTimeOffsetHelper.FromUnixTimeMilliseconds(System.Int64)">
+            <summary>
+            Converts a Unix time expressed as the number of milliseconds that have elapsed since 1970-01-01T00:00:00Z to a <see cref="T:System.DateTimeOffset"/> value.
+            </summary>
+            <param name="milliseconds">A Unix time, expressed as the number of milliseconds that have elapsed since 1970-01-01T00:00:00Z (January 1, 1970, at 12:00 AM UTC).
+            For Unix times before this date, its value is negative.</param>
+            <returns>A date and time value that represents the same moment in time as the Unix time. </returns>
+        </member>
+        <member name="M:InTheHand.DateTimeOffsetHelper.ToUnixTimeSeconds(System.DateTimeOffset)">
+            <summary>
+            Returns the number of seconds that have elapsed since 1970-01-01T00:00:00Z. 
+            </summary>
+            <param name="date">The DateTimeOffset value.</param>
+            <returns>The number of seconds that have elapsed since 1970-01-01T00:00:00Z. </returns>
+            <remarks>Unix time represents the number of seconds that have elapsed since 1970-01-01T00:00:00Z (January 1, 1970, at 12:00 AM UTC).
+            It does not take leap seconds into account.
+            <para>This method first converts the current instance to UTC before returning its Unix time.
+            For date and time values before 1970-01-01T00:00:00Z, this method returns a negative value.</para></remarks>
+        </member>
+        <member name="M:InTheHand.DateTimeOffsetHelper.ToUnixTimeMilliseconds(System.DateTimeOffset)">
+            <summary>
+            Returns the number of milliseconds that have elapsed since 1970-01-01T00:00:00.000Z. 
+            </summary>
+            <param name="date">The DateTimeOffset value.</param>
+            <returns>The number of milliseconds that have elapsed since 1970-01-01T00:00:00.000Z.</returns>
+            <remarks>Unix time represents the number of seconds that have elapsed since 1970-01-01T00:00:00Z (January 1, 1970, at 12:00 AM UTC).
+            It does not take leap seconds into account.
+            This method returns the number of milliseconds in Unix time. 
+            <para>This method first converts the current instance to UTC before returning the number of milliseconds in its Unix time.
+            For date and time values before 1970-01-01T00:00:00Z, this method returns a negative value.</para></remarks>
+        </member>
+    </members>
+</doc>

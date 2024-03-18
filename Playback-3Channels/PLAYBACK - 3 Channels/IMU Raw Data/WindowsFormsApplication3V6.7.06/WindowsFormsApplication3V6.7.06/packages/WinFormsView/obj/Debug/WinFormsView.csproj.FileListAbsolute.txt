@@ -1,0 +1,75 @@
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\WinFormsView\bin\Debug\LiveCharts.WinForms.dll.config
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\WinFormsView\bin\Debug\LiveCharts.WinForms.XML
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\WinFormsView\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\WinFormsView\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\WinFormsView\bin\Debug\LiveCharts.dll
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\WinFormsView\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\WinFormsView\bin\Debug\LiveCharts.pdb
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\WinFormsView\bin\Debug\LiveCharts.xml
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\WinFormsView\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\WinFormsView\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\WinFormsView\obj\Debug\WinFormsView.csprojAssemblyReference.cache
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\WinFormsView\obj\Debug\WinFormsView.csproj.CoreCompileInputs.cache
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\WinFormsView\obj\Debug\WinFormsView.csproj.CopyComplete
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\WinFormsView\obj\Debug\LiveCharts.WinForms.dll
+C:\Users\rxv\Downloads\Live-Charts-master\Live-Charts-master\WinFormsView\obj\Debug\LiveCharts.WinForms.pdb
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\obj\Debug\WinFormsView.csprojAssemblyReference.cache
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\obj\Debug\WinFormsView.csproj.CoreCompileInputs.cache
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\obj\Debug\LiveCharts.WinForms.dll
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\obj\Debug\LiveCharts.WinForms.pdb
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.WinForms.dll.config
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.WinForms.XML
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.dll
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.pdb
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.xml
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\obj\Debug\WinFormsView.csproj.CopyComplete
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.WinForms.dll.config
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.WinForms.XML
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.dll
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.pdb
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.xml
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\obj\Debug\WinFormsView.csprojAssemblyReference.cache
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\obj\Debug\WinFormsView.csproj.CoreCompileInputs.cache
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\obj\Debug\WinFormsView.csproj.CopyComplete
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\obj\Debug\LiveCharts.WinForms.dll
+C:\Users\rs4318\Desktop\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\obj\Debug\LiveCharts.WinForms.pdb
+C:\Users\rs4318\Desktop\IMU V3\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.WinForms.dll.config
+C:\Users\rs4318\Desktop\IMU V3\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.WinForms.XML
+C:\Users\rs4318\Desktop\IMU V3\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\rs4318\Desktop\IMU V3\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\rs4318\Desktop\IMU V3\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.dll
+C:\Users\rs4318\Desktop\IMU V3\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\rs4318\Desktop\IMU V3\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.pdb
+C:\Users\rs4318\Desktop\IMU V3\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.xml
+C:\Users\rs4318\Desktop\IMU V3\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\rs4318\Desktop\IMU V3\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\rs4318\Desktop\IMU V3\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\obj\Debug\WinFormsView.csprojAssemblyReference.cache
+C:\Users\rs4318\Desktop\IMU V3\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\obj\Debug\WinFormsView.csproj.CoreCompileInputs.cache
+C:\Users\rs4318\Desktop\IMU V3\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\obj\Debug\WinFormsView.csproj.CopyComplete
+C:\Users\rs4318\Desktop\IMU V3\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\obj\Debug\LiveCharts.WinForms.dll
+C:\Users\rs4318\Desktop\IMU V3\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\obj\Debug\LiveCharts.WinForms.pdb
+C:\Users\rs4318\Desktop\PlayBack App\PLAYBACK-Code\PLAYBACK - 3 Channels\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.WinForms.dll.config
+C:\Users\rs4318\Desktop\PlayBack App\PLAYBACK-Code\PLAYBACK - 3 Channels\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.WinForms.XML
+C:\Users\rs4318\Desktop\PlayBack App\PLAYBACK-Code\PLAYBACK - 3 Channels\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\rs4318\Desktop\PlayBack App\PLAYBACK-Code\PLAYBACK - 3 Channels\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\rs4318\Desktop\PlayBack App\PLAYBACK-Code\PLAYBACK - 3 Channels\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.dll
+C:\Users\rs4318\Desktop\PlayBack App\PLAYBACK-Code\PLAYBACK - 3 Channels\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\rs4318\Desktop\PlayBack App\PLAYBACK-Code\PLAYBACK - 3 Channels\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.pdb
+C:\Users\rs4318\Desktop\PlayBack App\PLAYBACK-Code\PLAYBACK - 3 Channels\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.xml
+C:\Users\rs4318\Desktop\PlayBack App\PLAYBACK-Code\PLAYBACK - 3 Channels\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\rs4318\Desktop\PlayBack App\PLAYBACK-Code\PLAYBACK - 3 Channels\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\rs4318\Desktop\PlayBack App\PLAYBACK-Code\PLAYBACK - 3 Channels\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\obj\Debug\WinFormsView.csprojAssemblyReference.cache
+C:\Users\rs4318\Desktop\PlayBack App\PLAYBACK-Code\PLAYBACK - 3 Channels\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\obj\Debug\WinFormsView.csproj.CoreCompileInputs.cache
+C:\Users\rs4318\Desktop\PlayBack App\PLAYBACK-Code\PLAYBACK - 3 Channels\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\obj\Debug\WinFormsView.csproj.CopyComplete
+C:\Users\rs4318\Desktop\PlayBack App\PLAYBACK-Code\PLAYBACK - 3 Channels\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\obj\Debug\LiveCharts.WinForms.dll
+C:\Users\rs4318\Desktop\PlayBack App\PLAYBACK-Code\PLAYBACK - 3 Channels\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\WinFormsView\obj\Debug\LiveCharts.WinForms.pdb

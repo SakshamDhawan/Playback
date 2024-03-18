@@ -1,0 +1,24 @@
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\bin\Release\NewSerialHandler.dll.config
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\bin\Release\NewSerialHandler.dll
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\bin\Release\NewSerialHandler.pdb
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\bin\Release\OxyPlot.dll
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\bin\Release\OxyPlot.pdb
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\bin\Release\OxyPlot.xml
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\obj\Release\NewSerialHandler.dll
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\NewSerialHandler\obj\Release\NewSerialHandler.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7\packages\NewSerialHandler\bin\Release\NewSerialHandler.dll.config
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7\packages\NewSerialHandler\bin\Release\NewSerialHandler.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7\packages\NewSerialHandler\bin\Release\NewSerialHandler.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7\packages\NewSerialHandler\bin\Release\OxyPlot.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7\packages\NewSerialHandler\bin\Release\OxyPlot.xml
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7\packages\NewSerialHandler\obj\Release\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7\packages\NewSerialHandler\obj\Release\NewSerialHandler.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7\packages\NewSerialHandler\obj\Release\NewSerialHandler.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.4\WindowsFormsApplication3V6.4\packages\NewSerialHandler\bin\Release\NewSerialHandler.dll.config
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.4\WindowsFormsApplication3V6.4\packages\NewSerialHandler\bin\Release\NewSerialHandler.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.4\WindowsFormsApplication3V6.4\packages\NewSerialHandler\bin\Release\NewSerialHandler.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.4\WindowsFormsApplication3V6.4\packages\NewSerialHandler\bin\Release\OxyPlot.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.4\WindowsFormsApplication3V6.4\packages\NewSerialHandler\bin\Release\OxyPlot.xml
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.4\WindowsFormsApplication3V6.4\packages\NewSerialHandler\obj\Release\NewSerialHandler.csprojResolveAssemblyReference.cache
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.4\WindowsFormsApplication3V6.4\packages\NewSerialHandler\obj\Release\NewSerialHandler.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.4\WindowsFormsApplication3V6.4\packages\NewSerialHandler\obj\Release\NewSerialHandler.pdb

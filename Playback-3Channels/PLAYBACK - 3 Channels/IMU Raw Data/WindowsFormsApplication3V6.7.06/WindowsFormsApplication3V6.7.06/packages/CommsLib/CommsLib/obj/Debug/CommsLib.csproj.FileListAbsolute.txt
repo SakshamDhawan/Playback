@@ -1,0 +1,318 @@
+\\icnas1.cc.ic.ac.uk\sw7814\Visual Studio 2015\Projects\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+\\icnas1.cc.ic.ac.uk\sw7814\Visual Studio 2015\Projects\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+\\icnas1.cc.ic.ac.uk\sw7814\Visual Studio 2015\Projects\CommsLib\CommsLib\bin\Debug\InTheHand.Net.Personal.dll
+\\icnas1.cc.ic.ac.uk\sw7814\Visual Studio 2015\Projects\CommsLib\CommsLib\bin\Debug\InTheHand.Net.Personal.xml
+\\icnas1.cc.ic.ac.uk\sw7814\Visual Studio 2015\Projects\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+\\icnas1.cc.ic.ac.uk\sw7814\Visual Studio 2015\Projects\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+\\icnas1.cc.ic.ac.uk\sw7814\Visual Studio 2015\Projects\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+H:\Visual Studio 2015\Projects\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+H:\Visual Studio 2015\Projects\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+H:\Visual Studio 2015\Projects\CommsLib\CommsLib\bin\Debug\InTheHand.Net.Personal.dll
+H:\Visual Studio 2015\Projects\CommsLib\CommsLib\bin\Debug\InTheHand.Net.Personal.xml
+H:\Visual Studio 2015\Projects\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+H:\Visual Studio 2015\Projects\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+H:\Visual Studio 2015\Projects\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\Sam\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\Sam\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\CommsLib\CommsLib\bin\Debug\InTheHand.Net.Personal.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\CommsLib\CommsLib\bin\Debug\OxyPlot.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\CommsLib\CommsLib\bin\Debug\OxyPlot.Extensions.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\CommsLib\CommsLib\bin\Debug\InTheHand.Net.Personal.xml
+C:\Users\Sam\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\CommsLib\CommsLib\bin\Debug\InTheHand.Net.Personal.dll
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\CommsLib\CommsLib\bin\Debug\OxyPlot.dll
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\CommsLib\CommsLib\bin\Debug\OxyPlot.Extensions.dll
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\CommsLib\CommsLib\bin\Debug\InTheHand.Net.Personal.xml
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\SW7814\Google Drive\Code\Imperial College London\Visual Studio 2015\Projects\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3 - Current\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3 - Current\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3 - Current\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3 - Current\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\SW7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3 - Current\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.3\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.3\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.3\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.3\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.3\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.4\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.4\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.4\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.4\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.4\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1 (1).6\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1 (1).6\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1 (1).6\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1 (1).6\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1 (1).6\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7.1\WindowsFormsApplication3V5.1.7\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7.1\WindowsFormsApplication3V5.1.7\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7.1\WindowsFormsApplication3V5.1.7\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7.1\WindowsFormsApplication3V5.1.7\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\Sam\Google Drive\Code\Imperial College London\WindowsFormsApplication3V5.1.7.1\WindowsFormsApplication3V5.1.7\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.2\WindowsFormsApplication3V6.1\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.2\WindowsFormsApplication3V6.1\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.2\WindowsFormsApplication3V6.1\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.2\WindowsFormsApplication3V6.1\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.2\WindowsFormsApplication3V6.1\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.4\WindowsFormsApplication3V6.4\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.4\WindowsFormsApplication3V6.4\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.4\WindowsFormsApplication3V6.4\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.4\WindowsFormsApplication3V6.4\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.4\WindowsFormsApplication3V6.4\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.5\WindowsFormsApplication3V6.4\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.5\WindowsFormsApplication3V6.4\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.5\WindowsFormsApplication3V6.4\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.5\WindowsFormsApplication3V6.4\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.5\WindowsFormsApplication3V6.4\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.6\WindowsFormsApplication3V6.4\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.6\WindowsFormsApplication3V6.4\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.6\WindowsFormsApplication3V6.4\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.6\WindowsFormsApplication3V6.4\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\sw7814\Google Drive\Code\Imperial College London\WindowsFormsApplication3V6.6\WindowsFormsApplication3V6.4\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.1\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.1\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.1\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.1\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.1\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.7\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.7\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.7\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.7\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.7\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.1\WindowsFormsApplication3V6.6.7\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.10\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.10\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.10\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.10\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.10\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.10\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.11\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.11\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.11\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.11\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.11\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.11\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.11\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.11\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.11\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.11\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.11\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\samwi\Google Drive (s.wilson14@imperial.ac.uk)\WindowsFormsApplication3V6.6.11\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.14\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.14\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.14\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.14\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.14\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.14\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.15\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.15\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.15\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojAssemblyReference.cache
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.15\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.15\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CopyComplete
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.15\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.15\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojAssemblyReference.cache
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CopyComplete
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\sw7814\Google Drive\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojAssemblyReference.cache
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CopyComplete
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.16\WindowsFormsApplication3V6.6.16\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.17\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.17\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.17\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojAssemblyReference.cache
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.17\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.17\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CopyComplete
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.17\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\Local User\Google Drive\WindowsFormsApplication3V6.6.17\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.17\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.17\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.17\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojAssemblyReference.cache
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.17\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.17\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CopyComplete
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.17\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\VR\Desktop\WindowsFormsApplication3V6.6.17\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.18\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.18\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.18\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojAssemblyReference.cache
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.18\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.18\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CopyComplete
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.18\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.18\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.20\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.20\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.20\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojAssemblyReference.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.20\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.20\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CopyComplete
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.20\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.20\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.22\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.22\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.22\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojAssemblyReference.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.22\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.22\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CopyComplete
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.22\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.22\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.23\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.23\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.23\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojAssemblyReference.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.23\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.23\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CopyComplete
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.23\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.23\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.24\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojAssemblyReference.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.24\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.24\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.24\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.24\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.24\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.24\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CopyComplete
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\OpenTK.dll
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\OpenTK.pdb
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\OpenTK.xml
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojAssemblyReference.cache
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CopyComplete
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\Local User\Desktop\WindowsFormsApplication3V6.6.25\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\OpenTK.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\OpenTK.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\OpenTK.xml
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojAssemblyReference.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CopyComplete
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.27\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\OpenTK.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\OpenTK.pdb
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\bin\Debug\OpenTK.xml
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojAssemblyReference.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CopyComplete
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\sw7814\Desktop\WindowsFormsApplication3V6.6.29\WindowsFormsApplication3V6.6.26\WindowsFormsApplication3V6.6.22\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+D:\WindowsFormsApplication3V6.7.01\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+D:\WindowsFormsApplication3V6.7.01\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+D:\WindowsFormsApplication3V6.7.01\packages\CommsLib\CommsLib\bin\Debug\OpenTK.dll
+D:\WindowsFormsApplication3V6.7.01\packages\CommsLib\CommsLib\bin\Debug\OpenTK.pdb
+D:\WindowsFormsApplication3V6.7.01\packages\CommsLib\CommsLib\bin\Debug\OpenTK.xml
+D:\WindowsFormsApplication3V6.7.01\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojAssemblyReference.cache
+D:\WindowsFormsApplication3V6.7.01\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+D:\WindowsFormsApplication3V6.7.01\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CopyComplete
+D:\WindowsFormsApplication3V6.7.01\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+D:\WindowsFormsApplication3V6.7.01\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+E:\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+E:\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+E:\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\bin\Debug\OpenTK.dll
+E:\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\bin\Debug\OpenTK.pdb
+E:\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\bin\Debug\OpenTK.xml
+E:\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojAssemblyReference.cache
+E:\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+E:\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CopyComplete
+E:\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+E:\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+E:\Other\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+E:\Other\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+E:\Other\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\bin\Debug\OpenTK.dll
+E:\Other\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\bin\Debug\OpenTK.pdb
+E:\Other\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\bin\Debug\OpenTK.xml
+E:\Other\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojAssemblyReference.cache
+E:\Other\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+E:\Other\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CopyComplete
+E:\Other\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+E:\Other\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+D:\Other\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+D:\Other\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+D:\Other\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\bin\Debug\OpenTK.dll
+D:\Other\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\bin\Debug\OpenTK.pdb
+D:\Other\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\bin\Debug\OpenTK.xml
+D:\Other\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojAssemblyReference.cache
+D:\Other\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+D:\Other\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CopyComplete
+D:\Other\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+D:\Other\WindowsFormsApplication3V6.7.02\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+E:\Other\WindowsFormsApplication3V6.7.05\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+E:\Other\WindowsFormsApplication3V6.7.05\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+E:\Other\WindowsFormsApplication3V6.7.05\packages\CommsLib\CommsLib\bin\Debug\OpenTK.dll
+E:\Other\WindowsFormsApplication3V6.7.05\packages\CommsLib\CommsLib\bin\Debug\OpenTK.pdb
+E:\Other\WindowsFormsApplication3V6.7.05\packages\CommsLib\CommsLib\bin\Debug\OpenTK.xml
+E:\Other\WindowsFormsApplication3V6.7.05\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+E:\Other\WindowsFormsApplication3V6.7.05\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+E:\Other\WindowsFormsApplication3V6.7.05\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+E:\Other\WindowsFormsApplication3V6.7.05\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojAssemblyReference.cache
+E:\Other\WindowsFormsApplication3V6.7.05\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CopyComplete
+D:\OneDrive - Imperial College London\Back Pain\Codes\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+D:\OneDrive - Imperial College London\Back Pain\Codes\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+D:\OneDrive - Imperial College London\Back Pain\Codes\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\OpenTK.dll
+D:\OneDrive - Imperial College London\Back Pain\Codes\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\OpenTK.pdb
+D:\OneDrive - Imperial College London\Back Pain\Codes\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\OpenTK.xml
+D:\OneDrive - Imperial College London\Back Pain\Codes\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+D:\OneDrive - Imperial College London\Back Pain\Codes\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+D:\OneDrive - Imperial College London\Back Pain\Codes\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\OpenTK.dll
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\OpenTK.pdb
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\OpenTK.xml
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+C:\Users\Weiguang Huo\Desktop\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\Weiguang Huo\Desktop\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\Weiguang Huo\Desktop\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\OpenTK.dll
+C:\Users\Weiguang Huo\Desktop\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\OpenTK.pdb
+C:\Users\Weiguang Huo\Desktop\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\OpenTK.xml
+C:\Users\Weiguang Huo\Desktop\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojResolveAssemblyReference.cache
+C:\Users\Weiguang Huo\Desktop\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\Weiguang Huo\Desktop\Back Pain\Codes\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\OpenTK.dll
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\OpenTK.pdb
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\OpenTK.xml
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csprojAssemblyReference.cache
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+D:\OneDrive - Imperial College London\Back Pain\Codes\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CopyComplete
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\CommsLib.dll
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\CommsLib.pdb
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\OpenTK.dll
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\OpenTK.pdb
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\bin\Debug\OpenTK.xml
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CoreCompileInputs.cache
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\obj\Debug\CommsLib.csproj.CopyComplete
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\obj\Debug\CommsLib.dll
+C:\Users\rxv\Desktop\HUO\IMU V2\IMU Raw Data\WindowsFormsApplication3V6.7.06\WindowsFormsApplication3V6.7.06\packages\CommsLib\CommsLib\obj\Debug\CommsLib.pdb
