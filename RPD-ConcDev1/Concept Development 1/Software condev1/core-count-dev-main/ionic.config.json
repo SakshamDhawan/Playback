@@ -1,0 +1,7 @@
+{
+  "name": "core-count-dev",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
